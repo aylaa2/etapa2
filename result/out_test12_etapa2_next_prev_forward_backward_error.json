@@ -1,0 +1,233 @@
+[ {
+  "command" : "createPlaylist",
+  "timestamp" : 150,
+  "user" : "emily30",
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 170,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 190,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "timestamp" : 195,
+  "user" : "emily30",
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 240,
+  "message" : "Please load a source before adding to or removing from the playlist."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 270,
+  "message" : "Search returned 1 results",
+  "results" : [ "Swimming Pools (Drank)" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 290,
+  "message" : "Successfully selected Swimming Pools (Drank)."
+}, {
+  "command" : "load",
+  "timestamp" : 300,
+  "user" : "emily30",
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 340,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 1000,
+  "message" : "Search returned 1 results",
+  "results" : [ "My favourite songs" ]
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 1120,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "next",
+  "timestamp" : 1130,
+  "user" : "emily30",
+  "message" : "Please load a source before skipping to the next track."
+}, {
+  "command" : "status",
+  "timestamp" : 1140,
+  "user" : "emily30",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 1190,
+  "message" : "Successfully selected My favourite songs."
+}, {
+  "command" : "load",
+  "timestamp" : 1195,
+  "user" : "emily30",
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "timestamp" : 1220,
+  "user" : "emily30",
+  "stats" : {
+    "name" : "Swimming Pools (Drank)",
+    "remainedTime" : 222,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "next",
+  "timestamp" : 1240,
+  "user" : "emily30",
+  "message" : "Please load a source before skipping to the next track."
+}, {
+  "command" : "status",
+  "timestamp" : 1250,
+  "user" : "emily30",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "prev",
+  "user" : "emily30",
+  "timestamp" : 1260,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "status",
+  "timestamp" : 1320,
+  "user" : "emily30",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "forward",
+  "timestamp" : 1350,
+  "user" : "emily30",
+  "message" : "Please load a source before attempting to forward."
+}, {
+  "command" : "backward",
+  "user" : "emily30",
+  "timestamp" : 1390,
+  "message" : "Please select a source before rewinding."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2000,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "forward",
+  "timestamp" : 2120,
+  "user" : "emily30",
+  "message" : "Please load a source before attempting to forward."
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 2190,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "timestamp" : 2200,
+  "user" : "emily30",
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "forward",
+  "timestamp" : 3120,
+  "user" : "emily30",
+  "message" : "Please load a source before attempting to forward."
+}, {
+  "command" : "status",
+  "timestamp" : 3220,
+  "user" : "emily30",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "forward",
+  "timestamp" : 3520,
+  "user" : "emily30",
+  "message" : "Please load a source before attempting to forward."
+}, {
+  "command" : "status",
+  "timestamp" : 3920,
+  "user" : "emily30",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "next",
+  "timestamp" : 4120,
+  "user" : "emily30",
+  "message" : "Please load a source before skipping to the next track."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 4200,
+  "message" : "Search returned 3 results",
+  "results" : [ "DNA.", "Championships", "99 Problems" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 4220,
+  "message" : "Successfully selected Championships."
+}, {
+  "command" : "forward",
+  "timestamp" : 4290,
+  "user" : "emily30",
+  "message" : "Please load a source before attempting to forward."
+}, {
+  "command" : "status",
+  "timestamp" : 4330,
+  "user" : "emily30",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "load",
+  "timestamp" : 4350,
+  "user" : "emily30",
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "backward",
+  "user" : "emily30",
+  "timestamp" : 4390,
+  "message" : "The loaded source is not a podcast."
+} ]

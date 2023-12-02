@@ -1,0 +1,267 @@
+[ {
+  "command" : "createPlaylist",
+  "timestamp" : 150,
+  "user" : "bob35",
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 170,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 190,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "timestamp" : 195,
+  "user" : "bob35",
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 240,
+  "message" : "Please load a source before adding to or removing from the playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 270,
+  "message" : "Search returned 5 results",
+  "results" : [ "Shape of You", "Don't", "Maps", "The Man", "Freedom" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 290,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "timestamp" : 295,
+  "user" : "bob35",
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 320,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 370,
+  "message" : "Search returned 5 results",
+  "results" : [ "Stairway to Heaven", "Under Pressure", "Dream On", "Big Pimpin'", "The Unforgiven" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 390,
+  "message" : "Successfully selected Stairway to Heaven."
+}, {
+  "command" : "load",
+  "timestamp" : 420,
+  "user" : "bob35",
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 430,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 440,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 445,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "timestamp" : 446,
+  "user" : "bob35",
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "bob35",
+  "timestamp" : 450,
+  "message" : "Please load a source before adding to or removing from the playlist."
+}, {
+  "command" : "status",
+  "timestamp" : 480,
+  "user" : "bob35",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 500,
+  "message" : "Search returned 1 results",
+  "results" : [ "My favourite songs" ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 510,
+  "message" : "Successfully selected My favourite songs."
+}, {
+  "command" : "load",
+  "timestamp" : 650,
+  "user" : "bob35",
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "timestamp" : 655,
+  "user" : "bob35",
+  "stats" : {
+    "name" : "Shape of You",
+    "remainedTime" : 228,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "next",
+  "timestamp" : 670,
+  "user" : "bob35",
+  "message" : "Skipped to next track successfully. The current track is Stairway to Heaven."
+}, {
+  "command" : "status",
+  "timestamp" : 690,
+  "user" : "bob35",
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 462,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 710,
+  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+}, {
+  "command" : "status",
+  "timestamp" : 711,
+  "user" : "bob35",
+  "stats" : {
+    "name" : "Stairway to Heaven",
+    "remainedTime" : 481,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 712,
+  "message" : "Returned to previous track successfully. The current track is Stairway to Heaven."
+}, {
+  "command" : "prev",
+  "user" : "bob35",
+  "timestamp" : 712,
+  "message" : "Returned to previous track successfully. The current track is Shape of You."
+}, {
+  "command" : "status",
+  "timestamp" : 713,
+  "user" : "bob35",
+  "stats" : {
+    "name" : "Shape of You",
+    "remainedTime" : 232,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 800,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 890,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "timestamp" : 900,
+  "user" : "bob35",
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "status",
+  "timestamp" : 1049,
+  "user" : "bob35",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "forward",
+  "timestamp" : 1050,
+  "user" : "bob35",
+  "message" : "Please load a source before attempting to forward."
+}, {
+  "command" : "status",
+  "timestamp" : 1051,
+  "user" : "bob35",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "search",
+  "user" : "bob35",
+  "timestamp" : 1198,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "bob35",
+  "timestamp" : 1199,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "timestamp" : 1200,
+  "user" : "bob35",
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "status",
+  "timestamp" : 1389,
+  "user" : "bob35",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "backward",
+  "user" : "bob35",
+  "timestamp" : 1390,
+  "message" : "Please select a source before rewinding."
+}, {
+  "command" : "status",
+  "timestamp" : 1391,
+  "user" : "bob35",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+} ]

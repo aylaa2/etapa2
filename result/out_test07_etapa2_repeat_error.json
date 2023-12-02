@@ -1,0 +1,281 @@
+[ {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 1000,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "repeat",
+  "timestamp" : 1035,
+  "user" : "emily30",
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 1100,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "timestamp" : 1120,
+  "user" : "emily30",
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "search",
+  "user" : "rhythmicrider58",
+  "timestamp" : 1170,
+  "message" : "No user found",
+  "results" : [ ]
+}, {
+  "command" : "status",
+  "timestamp" : 1190,
+  "user" : "emily30",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "repeat",
+  "timestamp" : 1191,
+  "user" : "emily30",
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "repeat",
+  "timestamp" : 1192,
+  "user" : "emily30",
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "repeat",
+  "timestamp" : 2000,
+  "user" : "emily30",
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "select",
+  "user" : "rhythmicrider58",
+  "timestamp" : 2050,
+  "message" : "User not found for username: rhythmicrider58"
+}, {
+  "command" : "status",
+  "timestamp" : 2100,
+  "user" : "emily30",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "repeat",
+  "timestamp" : 2135,
+  "user" : "emily30",
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "load",
+  "timestamp" : 2185,
+  "message" : "No user found for username: rhythmicrider58"
+}, {
+  "command" : "status",
+  "timestamp" : 2200,
+  "user" : "emily30",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 2245,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "repeat",
+  "timestamp" : 2290,
+  "user" : "emily30",
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "like",
+  "timestamp" : 2295,
+  "user" : "rhythmicrider58",
+  "message" : "No user found for username: rhythmicrider58"
+}, {
+  "command" : "repeat",
+  "timestamp" : 2480,
+  "message" : "No user found for username: rhythmicrider58"
+}, {
+  "command" : "forward",
+  "timestamp" : 2555,
+  "message" : "No user found for username: rhythmicrider58"
+}, {
+  "command" : "load",
+  "timestamp" : 3000,
+  "user" : "emily30",
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "status",
+  "timestamp" : 3100,
+  "user" : "emily30",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "createPlaylist",
+  "timestamp" : 3150,
+  "user" : "emily30",
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 3170,
+  "message" : "Search returned 1 results",
+  "results" : [ "99 Problems" ]
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 3190,
+  "message" : "Successfully selected 99 Problems."
+}, {
+  "command" : "search",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3190,
+  "message" : "No user found",
+  "results" : [ ]
+}, {
+  "command" : "load",
+  "timestamp" : 3195,
+  "user" : "emily30",
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "repeat",
+  "timestamp" : 3200,
+  "user" : "emily30",
+  "message" : "Repeat mode changed to repeat once."
+}, {
+  "command" : "status",
+  "timestamp" : 3220,
+  "user" : "emily30",
+  "stats" : {
+    "name" : "99 Problems",
+    "remainedTime" : 209,
+    "repeat" : "Repeat Once",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "select",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3225,
+  "message" : "User not found for username: rhythmicrider58"
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "emily30",
+  "timestamp" : 3240,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "emily30",
+  "timestamp" : 3260,
+  "message" : "Search returned 1 results",
+  "results" : [ "My favourite songs" ]
+}, {
+  "command" : "repeat",
+  "timestamp" : 3270,
+  "user" : "emily30",
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "follow",
+  "user" : "rhythmicrider58",
+  "message" : "User not found"
+}, {
+  "command" : "select",
+  "user" : "emily30",
+  "timestamp" : 3290,
+  "message" : "Successfully selected My favourite songs."
+}, {
+  "command" : "repeat",
+  "timestamp" : 3295,
+  "user" : "emily30",
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "status",
+  "timestamp" : 3310,
+  "user" : "emily30",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "repeat",
+  "timestamp" : 3335,
+  "user" : "emily30",
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "search",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3380,
+  "message" : "No user found",
+  "results" : [ ]
+}, {
+  "command" : "search",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3395,
+  "message" : "No user found",
+  "results" : [ ]
+}, {
+  "command" : "status",
+  "timestamp" : 3400,
+  "user" : "emily30",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "createPlaylist",
+  "timestamp" : 3405,
+  "user" : "emily30",
+  "message" : "A playlist with the same name already exists."
+}, {
+  "command" : "select",
+  "user" : "rhythmicrider58",
+  "timestamp" : 3410,
+  "message" : "User not found for username: rhythmicrider58"
+}, {
+  "command" : "repeat",
+  "timestamp" : 3435,
+  "user" : "emily30",
+  "message" : "Please load a source before setting the repeat status."
+}, {
+  "command" : "showPlaylists",
+  "user" : "emily30",
+  "timestamp" : 3438,
+  "result" : [ {
+    "name" : "My favourite songs",
+    "songs" : [ "99 Problems" ],
+    "visibility" : "public",
+    "followers" : 0
+  } ]
+}, {
+  "command" : "load",
+  "timestamp" : 3440,
+  "message" : "No user found for username: rhythmicrider58"
+}, {
+  "command" : "like",
+  "timestamp" : 3445,
+  "user" : "rhythmicrider58",
+  "message" : "No user found for username: rhythmicrider58"
+} ]

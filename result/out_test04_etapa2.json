@@ -1,0 +1,71 @@
+[ {
+  "command" : "search",
+  "user" : "melodicmind42",
+  "timestamp" : 60,
+  "message" : "No user found",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 65,
+  "message" : "Please conduct a search before making a selection."
+}, {
+  "command" : "select",
+  "user" : "melodicmind42",
+  "timestamp" : 70,
+  "message" : "User not found for username: melodicmind42"
+}, {
+  "command" : "load",
+  "timestamp" : 75,
+  "message" : "No user found for username: melodicmind42"
+}, {
+  "command" : "status",
+  "timestamp" : 90,
+  "user" : "melodicmind42"
+}, {
+  "command" : "like",
+  "timestamp" : 120,
+  "user" : "melodicmind42",
+  "message" : "No user found for username: melodicmind42"
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 190,
+  "message" : "Search returned 0 results",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 280,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "timestamp" : 285,
+  "user" : "alice22",
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "prev",
+  "user" : "alice22",
+  "timestamp" : 1159,
+  "message" : "Please load a source before returning to the previous track."
+}, {
+  "command" : "search",
+  "user" : "melodicmind42",
+  "timestamp" : 1385,
+  "message" : "No user found",
+  "results" : [ ]
+}, {
+  "command" : "select",
+  "user" : "melodicmind42",
+  "timestamp" : 1390,
+  "message" : "User not found for username: melodicmind42"
+}, {
+  "command" : "load",
+  "timestamp" : 1440,
+  "message" : "No user found for username: melodicmind42"
+}, {
+  "command" : "like",
+  "timestamp" : 1455,
+  "user" : "melodicmind42",
+  "message" : "No user found for username: melodicmind42"
+} ]

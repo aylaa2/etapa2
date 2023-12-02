@@ -1,0 +1,70 @@
+[ {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 10,
+  "message" : "Search returned 1 results",
+  "results" : [ "Shape of You" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 15,
+  "message" : "Successfully selected Shape of You."
+}, {
+  "command" : "load",
+  "timestamp" : 20,
+  "user" : "alice22",
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "timestamp" : 25,
+  "user" : "alice22",
+  "stats" : {
+    "name" : "Shape of You",
+    "remainedTime" : 228,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "switchConnectionStatus",
+  "timestamp" : 240,
+  "user" : "alice22",
+  "message" : "alice22 has changed status successfully."
+}, {
+  "command" : "like",
+  "timestamp" : 280,
+  "user" : "alice22",
+  "message" : "Please load a source before liking or unliking."
+}, {
+  "command" : "switchConnectionStatus",
+  "timestamp" : 390,
+  "user" : "alice22",
+  "message" : "alice22 has changed status successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 395,
+  "message" : "Search returned 1 results",
+  "results" : [ "Radio Ga Ga" ]
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 420,
+  "message" : "Search returned 3 results",
+  "results" : [ "Money Trees", "Maps", "Moves Like Jagger" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 430,
+  "message" : "The selected ID is too high."
+}, {
+  "command" : "load",
+  "timestamp" : 440,
+  "user" : "alice22",
+  "message" : "Please select a source before attempting to load."
+}, {
+  "command" : "like",
+  "timestamp" : 460,
+  "user" : "alice22",
+  "message" : "Please load a source before liking or unliking."
+} ]

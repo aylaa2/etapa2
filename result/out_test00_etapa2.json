@@ -1,0 +1,183 @@
+[ {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 10,
+  "message" : "Search returned 1 results",
+  "results" : [ "TED Radio Hour" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 15,
+  "message" : "Successfully selected TED Radio Hour."
+}, {
+  "command" : "load",
+  "timestamp" : 20,
+  "user" : "alice22",
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "timestamp" : 59,
+  "user" : "alice22",
+  "stats" : {
+    "name" : "The Power of Design",
+    "remainedTime" : 3065,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 60,
+  "message" : "Search returned 1 results",
+  "results" : [ "Stairway to Heaven" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 65,
+  "message" : "Successfully selected Stairway to Heaven."
+}, {
+  "command" : "load",
+  "timestamp" : 70,
+  "user" : "alice22",
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 75,
+  "message" : "Search returned 1 results",
+  "results" : [ "TED Radio Hour" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 80,
+  "message" : "Successfully selected TED Radio Hour."
+}, {
+  "command" : "load",
+  "timestamp" : 85,
+  "user" : "alice22",
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "timestamp" : 86,
+  "user" : "alice22",
+  "stats" : {
+    "name" : "The Power of Design",
+    "remainedTime" : 3063,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "playPause",
+  "timestamp" : 3200,
+  "user" : "alice22",
+  "message" : "Playback paused successfully."
+}, {
+  "command" : "status",
+  "timestamp" : 3201,
+  "user" : "alice22",
+  "stats" : {
+    "name" : "The Science of Us",
+    "remainedTime" : 3081,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+}, {
+  "command" : "createPlaylist",
+  "timestamp" : 3210,
+  "user" : "alice22",
+  "message" : "Playlist created successfully."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 3215,
+  "message" : "Search returned 2 results",
+  "results" : [ "Freedom", "Freedom" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 3220,
+  "message" : "Successfully selected Freedom."
+}, {
+  "command" : "load",
+  "timestamp" : 3225,
+  "user" : "alice22",
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3230,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 3235,
+  "message" : "Search returned 1 results",
+  "results" : [ "Happier" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 3240,
+  "message" : "Successfully selected Happier."
+}, {
+  "command" : "load",
+  "timestamp" : 3245,
+  "user" : "alice22",
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "addRemoveInPlaylist",
+  "user" : "alice22",
+  "timestamp" : 3250,
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "search",
+  "user" : "alice22",
+  "timestamp" : 3255,
+  "message" : "Search returned 1 results",
+  "results" : [ "2010 hits" ]
+}, {
+  "command" : "select",
+  "user" : "alice22",
+  "timestamp" : 3260,
+  "message" : "Successfully selected 2010 hits."
+}, {
+  "command" : "load",
+  "timestamp" : 3265,
+  "user" : "alice22",
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "timestamp" : 3270,
+  "user" : "alice22",
+  "stats" : {
+    "name" : "Freedom",
+    "remainedTime" : 173,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "timestamp" : 3448,
+  "user" : "alice22",
+  "stats" : {
+    "name" : "Happier",
+    "remainedTime" : 202,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "status",
+  "timestamp" : 4000,
+  "user" : "alice22",
+  "stats" : {
+    "name" : "",
+    "remainedTime" : 0,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : true
+  }
+} ]
