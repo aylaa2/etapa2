@@ -1,5 +1,7 @@
 package fileio.input;
 
+import app.utils.Enums;
+
 import java.lang.reflect.Array;
 import java.util.List;
 
@@ -26,6 +28,7 @@ public final class CommandInput {
     //new again
     private List<EpisodeInput> episodes;
     private String nextPage;
+
 
     public String getNextPage() {
         return nextPage;

@@ -1,4 +1,506 @@
 [ {
+  "command" : "addUser",
+  "timestamp" : 100,
+  "user" : "jsimpson",
+  "message" : "The username jsimpson has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 101,
+  "user" : "barmstrong",
+  "message" : "The username barmstrong has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 102,
+  "user" : "mccarthyluis",
+  "message" : "The username mccarthyluis has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 103,
+  "user" : "mccarthyluis",
+  "message" : "The username mccarthyluis is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 104,
+  "user" : "charlesgarcia",
+  "message" : "The username charlesgarcia has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 105,
+  "user" : "glester",
+  "message" : "The username glester has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 106,
+  "user" : "john99",
+  "message" : "The username john99 has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 107,
+  "user" : "jenningsbeth",
+  "message" : "The username jenningsbeth has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 108,
+  "user" : "barmstrong",
+  "message" : "The username barmstrong is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 109,
+  "user" : "mccarthyluis",
+  "message" : "The username mccarthyluis is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 110,
+  "user" : "barmstrong",
+  "message" : "The username barmstrong is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 111,
+  "user" : "jsimpson",
+  "message" : "The username jsimpson is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 112,
+  "user" : "john99",
+  "message" : "The username john99 is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 113,
+  "user" : "barmstrong",
+  "message" : "The username barmstrong is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 114,
+  "user" : "anthony22",
+  "message" : "The username anthony22 has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 115,
+  "user" : "fwebb",
+  "message" : "The username fwebb has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 116,
+  "user" : "jacobdean",
+  "message" : "The username jacobdean has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 117,
+  "user" : "anthony22",
+  "message" : "The username anthony22 is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 118,
+  "user" : "matthewporter",
+  "message" : "The username matthewporter has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 119,
+  "user" : "amanda16",
+  "message" : "The username amanda16 has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 120,
+  "user" : "barmstrong",
+  "message" : "The username barmstrong is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 121,
+  "user" : "jacobdean",
+  "message" : "The username jacobdean is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 122,
+  "user" : "fwebb",
+  "message" : "The username fwebb is already taken."
+}, {
+  "command" : "addUser",
+  "timestamp" : 123,
+  "user" : "cbutler",
+  "message" : "The username cbutler has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 124,
+  "user" : "glester",
+  "message" : "The username glester is already taken."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 125,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 126,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 127,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 128,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 129,
+  "user" : "amanda16",
+  "message" : "amanda16 has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 130,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 131,
+  "user" : "jacobdean",
+  "message" : "jacobdean has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 132,
+  "user" : "anthony22",
+  "message" : "anthony22 has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 133,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 134,
+  "user" : "anthony22",
+  "message" : "anthony22 has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 135,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 136,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 137,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 138,
+  "user" : "charlesgarcia",
+  "message" : "The usernamecharlesgarciais not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 139,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 140,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 141,
+  "user" : "fwebb",
+  "message" : "The usernamefwebbis not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 142,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 143,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 144,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 145,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 146,
+  "user" : "amanda16",
+  "message" : "amanda16 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 147,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 148,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 149,
+  "user" : "glester",
+  "message" : "glester has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 150,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 151,
+  "user" : "glester",
+  "message" : "glester has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 152,
+  "user" : "jsimpson",
+  "message" : "jsimpson has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 153,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 154,
+  "user" : "glester",
+  "message" : "glester has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 155,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 156,
+  "user" : "anthony22",
+  "message" : "anthony22 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 157,
+  "user" : "jacobdean",
+  "message" : "jacobdean has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 158,
+  "user" : "jacobdean",
+  "message" : "jacobdean has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 159,
+  "user" : "anthony22",
+  "message" : "anthony22 has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 160,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 161,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 162,
+  "user" : "jsimpson",
+  "message" : "jsimpson has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 163,
+  "user" : "jsimpson",
+  "message" : "jsimpson has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 164,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 165,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 166,
+  "user" : "glester",
+  "message" : "glester has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 167,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 168,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 169,
+  "user" : "jsimpson",
+  "message" : "jsimpson has the same song at least twice in this album."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 170,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 171,
+  "user" : "amanda16",
+  "message" : "amanda16 has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 172,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 173,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 174,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
+}, {
+  "command" : "showAlbums",
+  "timestamp" : 175,
+  "user" : "jsimpson",
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Harmony Love", "Harmony Pandora", "Enigma Heart", "Harmony Crescendo", "Infinity Velvet", "Aurora Lullaby", "Reflection Utopia", "Infinity Rhythm", "Infinity Dream", "Aurora Cascade" ]
+  }, {
+    "name" : "Electric View",
+    "songs" : [ "Whisper Rapture", "Heart Dance", "Solitude Enigma", "Zephyr Bliss", "Serendipity Pinnacle", "Euphoria Night", "Starlight Luminescence", "Mystique Ethereal", "Night Soul", "Bliss Melody", "Infinity Infinity" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "timestamp" : 176,
+  "user" : "mccarthyluis",
+  "result" : [ {
+    "name" : "Bad Revolution",
+    "songs" : [ "Rapture Echo", "Essence Crescendo", "Eclipse Tranquility", "Serendipity Serenade", "Adventure Eclipse", "Serendipity Radiance", "Heart Night", "Adventure Solitude", "Celestial Utopia" ]
+  }, {
+    "name" : "Groovy Harmonies",
+    "songs" : [ "Night Aurora", "Sunset Celestial", "Pinnacle Bliss", "Dream Radiance", "Odyssey Cascade", "Cascade Harmony", "Solitude Dance", "Eclipse Heart", "Soul Pulse", "Reflection Lullaby", "Radiance Paradox", "Colors Enigma", "Glow Whisper" ]
+  }, {
+    "name" : "Teen Harmonies",
+    "songs" : [ "Mystique Echo", "Pandora Odyssey", "Paradox Dance", "Cascade Glow", "Dance Twilight", "Pulse Crescendo", "Melody Soul", "Mystique Euphoria", "Solitude Harmonize", "Pinnacle Odyssey" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "timestamp" : 177,
+  "user" : "mccarthyluis",
+  "result" : [ {
+    "name" : "Bad Revolution",
+    "songs" : [ "Rapture Echo", "Essence Crescendo", "Eclipse Tranquility", "Serendipity Serenade", "Adventure Eclipse", "Serendipity Radiance", "Heart Night", "Adventure Solitude", "Celestial Utopia" ]
+  }, {
+    "name" : "Groovy Harmonies",
+    "songs" : [ "Night Aurora", "Sunset Celestial", "Pinnacle Bliss", "Dream Radiance", "Odyssey Cascade", "Cascade Harmony", "Solitude Dance", "Eclipse Heart", "Soul Pulse", "Reflection Lullaby", "Radiance Paradox", "Colors Enigma", "Glow Whisper" ]
+  }, {
+    "name" : "Teen Harmonies",
+    "songs" : [ "Mystique Echo", "Pandora Odyssey", "Paradox Dance", "Cascade Glow", "Dance Twilight", "Pulse Crescendo", "Melody Soul", "Mystique Euphoria", "Solitude Harmonize", "Pinnacle Odyssey" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "timestamp" : 178,
+  "user" : "glester",
+  "result" : [ {
+    "name" : "Alone Hood",
+    "songs" : [ "Heart Mystique", "Essence Rapture", "Paradox Harmony", "Rapture Dance", "Echo Melody", "Sunset Utopia", "Colors Harmony", "Starlight Twilight" ]
+  }, {
+    "name" : "Teen Revolution",
+    "songs" : [ "Starlight Rapture", "Pinnacle Cascade", "Reflection Dream", "Echo Pandora", "Tranquility Whisper", "Harmonize Mystique", "Mystique Adventure", "Heart Reflection", "Pinnacle Odyssey", "Rhythm Echo", "Enigma Sunset", "Bliss Starlight", "Love Pulse" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "timestamp" : 179,
+  "user" : "mccarthyluis",
+  "result" : [ {
+    "name" : "Bad Revolution",
+    "songs" : [ "Rapture Echo", "Essence Crescendo", "Eclipse Tranquility", "Serendipity Serenade", "Adventure Eclipse", "Serendipity Radiance", "Heart Night", "Adventure Solitude", "Celestial Utopia" ]
+  }, {
+    "name" : "Groovy Harmonies",
+    "songs" : [ "Night Aurora", "Sunset Celestial", "Pinnacle Bliss", "Dream Radiance", "Odyssey Cascade", "Cascade Harmony", "Solitude Dance", "Eclipse Heart", "Soul Pulse", "Reflection Lullaby", "Radiance Paradox", "Colors Enigma", "Glow Whisper" ]
+  }, {
+    "name" : "Teen Harmonies",
+    "songs" : [ "Mystique Echo", "Pandora Odyssey", "Paradox Dance", "Cascade Glow", "Dance Twilight", "Pulse Crescendo", "Melody Soul", "Mystique Euphoria", "Solitude Harmonize", "Pinnacle Odyssey" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "timestamp" : 181,
+  "user" : "jsimpson",
+  "result" : [ {
+    "name" : "Teen Technology",
+    "songs" : [ "Harmony Love", "Harmony Pandora", "Enigma Heart", "Harmony Crescendo", "Infinity Velvet", "Aurora Lullaby", "Reflection Utopia", "Infinity Rhythm", "Infinity Dream", "Aurora Cascade" ]
+  }, {
+    "name" : "Electric View",
+    "songs" : [ "Whisper Rapture", "Heart Dance", "Solitude Enigma", "Zephyr Bliss", "Serendipity Pinnacle", "Euphoria Night", "Starlight Luminescence", "Mystique Ethereal", "Night Soul", "Bliss Melody", "Infinity Infinity" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "timestamp" : 184,
+  "user" : "anthony22",
+  "result" : [ {
+    "name" : "Blue Technology",
+    "songs" : [ "Twilight Velvet", "Velvet Pulse", "Whisper Cascade", "Luminescence Reflection", "Harmony Ethereal", "Ethereal Radiance", "Radiance Celestial" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "timestamp" : 185,
+  "user" : "jacobdean",
+  "result" : [ {
+    "name" : "Electric Funeral ",
+    "songs" : [ "Voyage Paradox", "Night Harmony", "Colors Melody", "Ethereal Heart", "Serenade Dance", "Tranquility Serenade", "Essence Pandora", "Odyssey Love", "Pinnacle Colors", "Night Velvet", "Whirlwind Aurora" ]
+  }, {
+    "name" : "Bad Dirt",
+    "songs" : [ "Soul Pandora", "Adventure Infinity", "Night Ethereal", "Heart Adventure", "Paradox Pulse", "Velvet Dance", "Soul Paradox", "Harmony Rapture", "Cascade Pulse", "Harmony Velvet", "Rhythm Bliss", "Eclipse Glow" ]
+  }, {
+    "name" : "Bad Dreams",
+    "songs" : [ "Crescendo Twilight", "Odyssey Reflection", "Euphoria Harmonize", "Adventure Reflection", "Lullaby Starlight", "Zephyr Enigma", "Pandora Adventure", "Radiance Mystique", "Pinnacle Soul", "Voyage Reflection", "Starlight Pinnacle", "Love Aurora" ]
+  }, {
+    "name" : "Dynamic Dirt",
+    "songs" : [ "Adventure Rhythm", "Pandora Utopia", "Adventure Serendipity", "Whisper Infinity", "Serendipity Pulse", "Celestial Serenade", "Velvet Zephyr", "Luminescence Enigma", "Eclipse Bliss", "Radiance Dream", "Aurora Voyage", "Mystique Whisper", "Infinity Solitude" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "timestamp" : 186,
+  "user" : "anthony22",
+  "result" : [ {
+    "name" : "Blue Technology",
+    "songs" : [ "Twilight Velvet", "Velvet Pulse", "Whisper Cascade", "Luminescence Reflection", "Harmony Ethereal", "Ethereal Radiance", "Radiance Celestial" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "timestamp" : 187,
+  "user" : "amanda16",
+  "result" : [ {
+    "name" : "Groovy Hood",
+    "songs" : [ "Dream Bliss", "Bliss Sunset", "Cascade Soul", "Colors Velvet", "Velvet Odyssey", "Enigma Cascade", "Whisper Aurora", "Zephyr Paradox" ]
+  }, {
+    "name" : "Teen Guide",
+    "songs" : [ "Utopia Twilight", "Melody Reflection", "Twilight Night", "Sunset Glow", "Cascade Enigma", "Solitude Rapture", "Solitude Rhythm" ]
+  } ]
+}, {
+  "command" : "showAlbums",
+  "timestamp" : 189,
+  "user" : "cbutler",
+  "result" : [ {
+    "name" : "Breezy View",
+    "songs" : [ "Heart Utopia", "Solitude Reflection", "Mystique Colors", "Rhythm Whisper", "Twilight Sunset", "Eclipse Radiance", "Zephyr Whisper", "Cascade Serendipity", "Soul Serendipity", "Love Reflection", "Adventure Velvet", "Bliss Solitude", "Harmony Pandora" ]
+  } ]
+}, {
   "command" : "switchVisibility",
   "user" : "alice22",
   "timestamp" : 190,
@@ -4369,7 +4871,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -4380,7 +4882,7 @@
   "command" : "switchConnectionStatus",
   "timestamp" : 5420,
   "user" : "jsimpson",
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 5420,
@@ -4463,7 +4965,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -4474,7 +4976,7 @@
   "command" : "switchConnectionStatus",
   "timestamp" : 5731,
   "user" : "jsimpson",
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 5731,
@@ -4557,7 +5059,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -4568,7 +5070,7 @@
   "command" : "switchConnectionStatus",
   "timestamp" : 6042,
   "user" : "jsimpson",
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6042,
@@ -4651,7 +5153,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -4662,7 +5164,7 @@
   "command" : "switchConnectionStatus",
   "timestamp" : 6353,
   "user" : "jsimpson",
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6353,
@@ -4745,7 +5247,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -4756,7 +5258,7 @@
   "command" : "switchConnectionStatus",
   "timestamp" : 6664,
   "user" : "jsimpson",
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6664,
@@ -4839,7 +5341,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -4850,7 +5352,7 @@
   "command" : "switchConnectionStatus",
   "timestamp" : 6975,
   "user" : "jsimpson",
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 6975,
@@ -4933,7 +5435,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -4944,7 +5446,7 @@
   "command" : "switchConnectionStatus",
   "timestamp" : 7286,
   "user" : "jsimpson",
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7286,
@@ -5027,7 +5529,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5038,7 +5540,7 @@
   "command" : "switchConnectionStatus",
   "timestamp" : 7597,
   "user" : "jsimpson",
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7597,
@@ -5121,7 +5623,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5132,7 +5634,7 @@
   "command" : "switchConnectionStatus",
   "timestamp" : 7908,
   "user" : "jsimpson",
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 7908,
@@ -5215,7 +5717,7 @@
     "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "switchConnectionStatus",
@@ -5226,7 +5728,7 @@
   "command" : "switchConnectionStatus",
   "timestamp" : 8219,
   "user" : "jsimpson",
-  "message" : "The username jsimpson doesn't exist."
+  "message" : "jsimpson is not a normal user."
 }, {
   "command" : "getOnlineUsers",
   "timestamp" : 8219,
@@ -13661,6 +14163,11 @@
   "timestamp" : 11770,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 11770,
+  "user" : "fwebb",
+  "message" : "The usernamefwebbis not an artist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11780,
@@ -13671,6 +14178,11 @@
   "user" : "bob35",
   "timestamp" : 11780,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 11780,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -13683,6 +14195,11 @@
   "timestamp" : 11790,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 11790,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11800,
@@ -13693,6 +14210,11 @@
   "user" : "david27",
   "timestamp" : 11800,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 11800,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13705,6 +14227,11 @@
   "timestamp" : 11810,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 11810,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11820,
@@ -13715,6 +14242,11 @@
   "user" : "frank21",
   "timestamp" : 11820,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 11820,
+  "user" : "fwebb",
+  "message" : "The usernamefwebbis not an artist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13727,6 +14259,11 @@
   "timestamp" : 11830,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 11830,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11840,
@@ -13737,6 +14274,11 @@
   "user" : "henry26",
   "timestamp" : 11840,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 11840,
+  "user" : "jsimpson",
+  "message" : "jsimpson has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -13749,6 +14291,11 @@
   "timestamp" : 11850,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 11850,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11860,
@@ -13759,6 +14306,11 @@
   "user" : "jack29",
   "timestamp" : 11860,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 11860,
+  "user" : "fwebb",
+  "message" : "The usernamefwebbis not an artist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -13771,6 +14323,11 @@
   "timestamp" : 11870,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 11870,
+  "user" : "glester",
+  "message" : "glester has added new album successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11880,
@@ -13781,6 +14338,11 @@
   "user" : "bob35",
   "timestamp" : 11880,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 11880,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -13793,6 +14355,11 @@
   "timestamp" : 11890,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 11890,
+  "user" : "charlesgarcia",
+  "message" : "The usernamecharlesgarciais not an artist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 11900,
@@ -13803,6 +14370,11 @@
   "user" : "david27",
   "timestamp" : 11900,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 11900,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13815,6 +14387,11 @@
   "timestamp" : 11910,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 11910,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 11920,
@@ -13825,6 +14402,11 @@
   "user" : "frank21",
   "timestamp" : 11920,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 11920,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13837,6 +14419,11 @@
   "timestamp" : 11930,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 11930,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 11940,
@@ -13847,6 +14434,11 @@
   "user" : "henry26",
   "timestamp" : 11940,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 11940,
+  "user" : "anthony22",
+  "message" : "anthony22 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -13859,6 +14451,11 @@
   "timestamp" : 11950,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 11950,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 11960,
@@ -13869,6 +14466,11 @@
   "user" : "jack29",
   "timestamp" : 11960,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 11960,
+  "user" : "charlesgarcia",
+  "message" : "The usernamecharlesgarciais not an artist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -13881,6 +14483,11 @@
   "timestamp" : 11970,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 11970,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 11980,
@@ -13891,6 +14498,11 @@
   "user" : "bob35",
   "timestamp" : 11980,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 11980,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -13903,6 +14515,11 @@
   "timestamp" : 11990,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 11990,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12000,
@@ -13913,6 +14530,11 @@
   "user" : "david27",
   "timestamp" : 12000,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12000,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -13925,6 +14547,11 @@
   "timestamp" : 12010,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12010,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12020,
@@ -13935,6 +14562,11 @@
   "user" : "frank21",
   "timestamp" : 12020,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12020,
+  "user" : "glester",
+  "message" : "glester has added new album successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -13947,6 +14579,11 @@
   "timestamp" : 12030,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12030,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12040,
@@ -13957,6 +14594,11 @@
   "user" : "henry26",
   "timestamp" : 12040,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12040,
+  "user" : "glester",
+  "message" : "glester has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -13969,6 +14611,11 @@
   "timestamp" : 12050,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12050,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12060,
@@ -13979,6 +14626,11 @@
   "user" : "jack29",
   "timestamp" : 12060,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12060,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -13991,6 +14643,11 @@
   "timestamp" : 12070,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12070,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12080,
@@ -14001,6 +14658,11 @@
   "user" : "bob35",
   "timestamp" : 12080,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12080,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14013,6 +14675,11 @@
   "timestamp" : 12090,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12090,
+  "user" : "jsimpson",
+  "message" : "jsimpson has added new album successfully."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12100,
@@ -14023,6 +14690,11 @@
   "user" : "david27",
   "timestamp" : 12100,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12100,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14035,6 +14707,11 @@
   "timestamp" : 12110,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12110,
+  "user" : "glester",
+  "message" : "glester has added new album successfully."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12120,
@@ -14045,6 +14722,11 @@
   "user" : "frank21",
   "timestamp" : 12120,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12120,
+  "user" : "fwebb",
+  "message" : "The usernamefwebbis not an artist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14057,6 +14739,11 @@
   "timestamp" : 12130,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12130,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12140,
@@ -14067,6 +14754,11 @@
   "user" : "henry26",
   "timestamp" : 12140,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12140,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14079,6 +14771,11 @@
   "timestamp" : 12150,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12150,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12160,
@@ -14089,6 +14786,11 @@
   "user" : "jack29",
   "timestamp" : 12160,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12160,
+  "user" : "glester",
+  "message" : "glester has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14101,6 +14803,11 @@
   "timestamp" : 12170,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12170,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12180,
@@ -14111,6 +14818,11 @@
   "user" : "bob35",
   "timestamp" : 12180,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12180,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14123,6 +14835,11 @@
   "timestamp" : 12190,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12190,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12200,
@@ -14133,6 +14850,11 @@
   "user" : "david27",
   "timestamp" : 12200,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12200,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14145,6 +14867,11 @@
   "timestamp" : 12210,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12210,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12220,
@@ -14155,6 +14882,11 @@
   "user" : "frank21",
   "timestamp" : 12220,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12220,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14167,6 +14899,11 @@
   "timestamp" : 12230,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12230,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12240,
@@ -14177,6 +14914,11 @@
   "user" : "henry26",
   "timestamp" : 12240,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12240,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14189,6 +14931,11 @@
   "timestamp" : 12250,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12250,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12260,
@@ -14199,6 +14946,11 @@
   "user" : "jack29",
   "timestamp" : 12260,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12260,
+  "user" : "anthony22",
+  "message" : "anthony22 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14211,6 +14963,11 @@
   "timestamp" : 12270,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12270,
+  "user" : "charlesgarcia",
+  "message" : "The usernamecharlesgarciais not an artist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12280,
@@ -14221,6 +14978,11 @@
   "user" : "bob35",
   "timestamp" : 12280,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12280,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14233,6 +14995,11 @@
   "timestamp" : 12290,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12290,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12300,
@@ -14243,6 +15010,11 @@
   "user" : "david27",
   "timestamp" : 12300,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12300,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14255,6 +15027,11 @@
   "timestamp" : 12310,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12310,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12320,
@@ -14265,6 +15042,11 @@
   "user" : "frank21",
   "timestamp" : 12320,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12320,
+  "user" : "fwebb",
+  "message" : "The usernamefwebbis not an artist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14277,6 +15059,11 @@
   "timestamp" : 12330,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12330,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12340,
@@ -14287,6 +15074,11 @@
   "user" : "henry26",
   "timestamp" : 12340,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12340,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14299,6 +15091,11 @@
   "timestamp" : 12350,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12350,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12360,
@@ -14309,6 +15106,11 @@
   "user" : "jack29",
   "timestamp" : 12360,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12360,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14321,6 +15123,11 @@
   "timestamp" : 12370,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12370,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12380,
@@ -14331,6 +15138,11 @@
   "user" : "bob35",
   "timestamp" : 12380,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12380,
+  "user" : "glester",
+  "message" : "glester has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14343,6 +15155,11 @@
   "timestamp" : 12390,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12390,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12400,
@@ -14353,6 +15170,11 @@
   "user" : "david27",
   "timestamp" : 12400,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12400,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14365,6 +15187,11 @@
   "timestamp" : 12410,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12410,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12420,
@@ -14375,6 +15202,11 @@
   "user" : "frank21",
   "timestamp" : 12420,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12420,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14387,6 +15219,11 @@
   "timestamp" : 12430,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12430,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12440,
@@ -14397,6 +15234,11 @@
   "user" : "henry26",
   "timestamp" : 12440,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12440,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14409,6 +15251,11 @@
   "timestamp" : 12450,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12450,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12460,
@@ -14419,6 +15266,11 @@
   "user" : "jack29",
   "timestamp" : 12460,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12460,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14431,6 +15283,11 @@
   "timestamp" : 12470,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12470,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12480,
@@ -14441,6 +15298,11 @@
   "user" : "bob35",
   "timestamp" : 12480,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12480,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14453,6 +15315,11 @@
   "timestamp" : 12490,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12490,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12500,
@@ -14463,6 +15330,11 @@
   "user" : "david27",
   "timestamp" : 12500,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12500,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14475,6 +15347,11 @@
   "timestamp" : 12510,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12510,
+  "user" : "glester",
+  "message" : "glester has added new album successfully."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12520,
@@ -14485,6 +15362,11 @@
   "user" : "frank21",
   "timestamp" : 12520,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12520,
+  "user" : "charlesgarcia",
+  "message" : "The usernamecharlesgarciais not an artist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14497,6 +15379,11 @@
   "timestamp" : 12530,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12530,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12540,
@@ -14507,6 +15394,11 @@
   "user" : "henry26",
   "timestamp" : 12540,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12540,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14519,6 +15411,11 @@
   "timestamp" : 12550,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12550,
+  "user" : "glester",
+  "message" : "glester has added new album successfully."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12560,
@@ -14529,6 +15426,11 @@
   "user" : "jack29",
   "timestamp" : 12560,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12560,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14541,6 +15443,11 @@
   "timestamp" : 12570,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12570,
+  "user" : "glester",
+  "message" : "glester has added new album successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12580,
@@ -14551,6 +15458,11 @@
   "user" : "bob35",
   "timestamp" : 12580,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12580,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14563,6 +15475,11 @@
   "timestamp" : 12590,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12590,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12600,
@@ -14573,6 +15490,11 @@
   "user" : "david27",
   "timestamp" : 12600,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12600,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14585,6 +15507,11 @@
   "timestamp" : 12610,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12610,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12620,
@@ -14595,6 +15522,11 @@
   "user" : "frank21",
   "timestamp" : 12620,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12620,
+  "user" : "glester",
+  "message" : "glester has added new album successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14607,6 +15539,11 @@
   "timestamp" : 12630,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12630,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12640,
@@ -14617,6 +15554,11 @@
   "user" : "henry26",
   "timestamp" : 12640,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12640,
+  "user" : "fwebb",
+  "message" : "The usernamefwebbis not an artist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14629,6 +15571,11 @@
   "timestamp" : 12650,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12650,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12660,
@@ -14639,6 +15586,11 @@
   "user" : "jack29",
   "timestamp" : 12660,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12660,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14651,6 +15603,11 @@
   "timestamp" : 12670,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12670,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12680,
@@ -14661,6 +15618,11 @@
   "user" : "bob35",
   "timestamp" : 12680,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12680,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14673,6 +15635,11 @@
   "timestamp" : 12690,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12690,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12700,
@@ -14683,6 +15650,11 @@
   "user" : "david27",
   "timestamp" : 12700,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12700,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14695,6 +15667,11 @@
   "timestamp" : 12710,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12710,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12720,
@@ -14705,6 +15682,11 @@
   "user" : "frank21",
   "timestamp" : 12720,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12720,
+  "user" : "charlesgarcia",
+  "message" : "The usernamecharlesgarciais not an artist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14717,6 +15699,11 @@
   "timestamp" : 12730,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12730,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12740,
@@ -14727,6 +15714,11 @@
   "user" : "henry26",
   "timestamp" : 12740,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12740,
+  "user" : "charlesgarcia",
+  "message" : "The usernamecharlesgarciais not an artist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14739,6 +15731,11 @@
   "timestamp" : 12750,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12750,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12760,
@@ -14749,6 +15746,11 @@
   "user" : "jack29",
   "timestamp" : 12760,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12760,
+  "user" : "fwebb",
+  "message" : "The usernamefwebbis not an artist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14761,6 +15763,11 @@
   "timestamp" : 12770,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12770,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12780,
@@ -14771,6 +15778,11 @@
   "user" : "bob35",
   "timestamp" : 12780,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12780,
+  "user" : "anthony22",
+  "message" : "anthony22 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14783,6 +15795,11 @@
   "timestamp" : 12790,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12790,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12800,
@@ -14793,6 +15810,11 @@
   "user" : "david27",
   "timestamp" : 12800,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12800,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14805,6 +15827,11 @@
   "timestamp" : 12810,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12810,
+  "user" : "jacobdean",
+  "message" : "jacobdean has another album with the same name."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12820,
@@ -14815,6 +15842,11 @@
   "user" : "frank21",
   "timestamp" : 12820,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12820,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14827,6 +15859,11 @@
   "timestamp" : 12830,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12830,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12840,
@@ -14837,6 +15874,11 @@
   "user" : "henry26",
   "timestamp" : 12840,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12840,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14849,6 +15891,11 @@
   "timestamp" : 12850,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12850,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12860,
@@ -14859,6 +15906,11 @@
   "user" : "jack29",
   "timestamp" : 12860,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12860,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14871,6 +15923,11 @@
   "timestamp" : 12870,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12870,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12880,
@@ -14881,6 +15938,11 @@
   "user" : "bob35",
   "timestamp" : 12880,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12880,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -14893,6 +15955,11 @@
   "timestamp" : 12890,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12890,
+  "user" : "glester",
+  "message" : "glester has added new album successfully."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 12900,
@@ -14903,6 +15970,11 @@
   "user" : "david27",
   "timestamp" : 12900,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12900,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -14915,6 +15987,11 @@
   "timestamp" : 12910,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12910,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 12920,
@@ -14925,6 +16002,11 @@
   "user" : "frank21",
   "timestamp" : 12920,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12920,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -14937,6 +16019,11 @@
   "timestamp" : 12930,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12930,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 12940,
@@ -14947,6 +16034,11 @@
   "user" : "henry26",
   "timestamp" : 12940,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12940,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -14959,6 +16051,11 @@
   "timestamp" : 12950,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12950,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 12960,
@@ -14969,6 +16066,11 @@
   "user" : "jack29",
   "timestamp" : 12960,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12960,
+  "user" : "jsimpson",
+  "message" : "jsimpson has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -14981,6 +16083,11 @@
   "timestamp" : 12970,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12970,
+  "user" : "fwebb",
+  "message" : "The usernamefwebbis not an artist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 12980,
@@ -14991,6 +16098,11 @@
   "user" : "bob35",
   "timestamp" : 12980,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 12980,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15003,6 +16115,11 @@
   "timestamp" : 12990,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 12990,
+  "user" : "glester",
+  "message" : "glester has another album with the same name."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 13000,
@@ -15013,6 +16130,11 @@
   "user" : "david27",
   "timestamp" : 13000,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 13000,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15025,6 +16147,11 @@
   "timestamp" : 13010,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 13010,
+  "user" : "charlesgarcia",
+  "message" : "The usernamecharlesgarciais not an artist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 13020,
@@ -15035,6 +16162,11 @@
   "user" : "frank21",
   "timestamp" : 13020,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 13020,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15047,6 +16179,11 @@
   "timestamp" : 13030,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 13030,
+  "user" : "fwebb",
+  "message" : "The usernamefwebbis not an artist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 13040,
@@ -15057,6 +16194,11 @@
   "user" : "henry26",
   "timestamp" : 13040,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 13040,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15069,6 +16211,11 @@
   "timestamp" : 13050,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 13050,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 13060,
@@ -15079,6 +16226,11 @@
   "user" : "jack29",
   "timestamp" : 13060,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 13060,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -15091,6 +16243,11 @@
   "timestamp" : 13070,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 13070,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 13080,
@@ -15101,6 +16258,11 @@
   "user" : "bob35",
   "timestamp" : 13080,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 13080,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15113,6 +16275,11 @@
   "timestamp" : 13090,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 13090,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 13100,
@@ -15123,6 +16290,11 @@
   "user" : "david27",
   "timestamp" : 13100,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 13100,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15135,6 +16307,11 @@
   "timestamp" : 13110,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 13110,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 13120,
@@ -15145,6 +16322,11 @@
   "user" : "frank21",
   "timestamp" : 13120,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 13120,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15157,6 +16339,11 @@
   "timestamp" : 13130,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 13130,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 13140,
@@ -15167,6 +16354,11 @@
   "user" : "henry26",
   "timestamp" : 13140,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 13140,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15179,6 +16371,11 @@
   "timestamp" : 13150,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 13150,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has another album with the same name."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 13160,
@@ -15189,6 +16386,11 @@
   "user" : "jack29",
   "timestamp" : 13160,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 13160,
+  "user" : "glester",
+  "message" : "glester has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -15201,6 +16403,11 @@
   "timestamp" : 13170,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 13170,
+  "user" : "matthewporter",
+  "message" : "The usernamematthewporteris not an artist."
+}, {
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 13180,
@@ -15211,6 +16418,11 @@
   "user" : "bob35",
   "timestamp" : 13180,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 13180,
+  "user" : "cbutler",
+  "message" : "cbutler has added new album successfully."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -15223,6 +16435,11 @@
   "timestamp" : 13190,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 13190,
+  "user" : "john99",
+  "message" : "The usernamejohn99is not an artist."
+}, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 13200,
@@ -15233,6 +16450,11 @@
   "user" : "david27",
   "timestamp" : 13200,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 13200,
+  "user" : "mccarthyluis",
+  "message" : "mccarthyluis has added new album successfully."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -15245,6 +16467,11 @@
   "timestamp" : 13210,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 13210,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
   "command" : "search",
   "user" : "frank21",
   "timestamp" : 13220,
@@ -15255,6 +16482,11 @@
   "user" : "frank21",
   "timestamp" : 13220,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 13220,
+  "user" : "jacobdean",
+  "message" : "jacobdean has added new album successfully."
 }, {
   "command" : "search",
   "user" : "grace25",
@@ -15267,6 +16499,11 @@
   "timestamp" : 13230,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 13230,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
   "command" : "search",
   "user" : "henry26",
   "timestamp" : 13240,
@@ -15277,6 +16514,11 @@
   "user" : "henry26",
   "timestamp" : 13240,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 13240,
+  "user" : "amanda16",
+  "message" : "amanda16 has added new album successfully."
 }, {
   "command" : "search",
   "user" : "irene33",
@@ -15289,6 +16531,11 @@
   "timestamp" : 13250,
   "message" : "The selected ID is too high."
 }, {
+  "command" : "addAlbum",
+  "timestamp" : 13250,
+  "user" : "barmstrong",
+  "message" : "The usernamebarmstrongis not an artist."
+}, {
   "command" : "search",
   "user" : "jack29",
   "timestamp" : 13260,
@@ -15299,6 +16546,11 @@
   "user" : "jack29",
   "timestamp" : 13260,
   "message" : "The selected ID is too high."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 13260,
+  "user" : "fwebb",
+  "message" : "The usernamefwebbis not an artist."
 }, {
   "command" : "search",
   "user" : "alice22",

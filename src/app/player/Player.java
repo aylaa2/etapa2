@@ -16,9 +16,12 @@ public class Player {
     private PlayerSource source;
     @Getter
     private String type;
-
+    private boolean isOnline = true; // All users start as online by default
     private ArrayList<PodcastBookmark> bookmarks = new ArrayList<>();
 
+    public void setPaused(boolean paused) {
+        this.paused = paused;
+    }
 
     public Player() {
         this.repeatMode = Enums.RepeatMode.NO_REPEAT;
@@ -78,7 +81,11 @@ public class Player {
     }
 
     public void pause() {
-        paused = !paused;
+        if (isOnline) {
+            paused = !paused;
+        } else {
+           paused = false ;
+        }
     }
 
     public void shuffle (Integer seed) {
@@ -117,7 +124,7 @@ public class Player {
     }
 
     public void simulatePlayer(int time) {
-        if (!paused) {
+        if (source != null && !paused) {
             while (time >= source.getDuration()) {
                 time -= source.getDuration();
                 next();

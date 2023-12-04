@@ -9,7 +9,11 @@ public class PlayerStats {
     private final int remainedTime;
     private String repeat;
     private final boolean shuffle;
-    private final boolean paused;
+    private  boolean paused;
+
+    public void setPaused(boolean paused) {
+        this.paused = paused;
+    }
 
     public PlayerStats(String name, int remainedTime, Enums.RepeatMode repeatMode, boolean shuffle, boolean paused) {
         this.name = name;

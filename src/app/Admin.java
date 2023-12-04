@@ -1,5 +1,6 @@
 package app;
 
+import app.audio.Collections.Album;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.Podcast;
 import app.audio.Files.Episode;
@@ -14,6 +15,7 @@ public class Admin {
     private static List<User> users = new ArrayList<>();
     private static List<Song> songs = new ArrayList<>();
     private static List<Podcast> podcasts = new ArrayList<>();
+    private static List<Album> albums = new ArrayList<>();
     private static int timestamp = 0;
 
     public static void setUsers(List<UserInput> userInputList) {
@@ -50,7 +52,9 @@ public class Admin {
     public static List<Podcast> getPodcasts() {
         return new ArrayList<>(podcasts);
     }
-
+    public static List<Album> getAlbums() {
+        return new ArrayList<>(albums);
+    }
     public static List<Playlist> getPlaylists() {
         List<Playlist> playlists = new ArrayList<>();
         for (User user : users) {
@@ -66,6 +70,9 @@ public class Admin {
             }
         }
         return null;
+    }
+    public static void addUser(User user) {
+        users.add(user);
     }
 
     public static void updateTimestamp(int newTimestamp) {
@@ -107,19 +114,31 @@ public class Admin {
         }
         return topPlaylists;
     }
+
     public static List<String> getOnlineUsers() {
         List<String> onlineUsernames = new ArrayList<>();
+        int count = 0;
+
         for (User user : users) {
             if (user.getUserType() == Enums.UserType.USER && user.isOnline()) {
                 onlineUsernames.add(user.getUsername());
+                count++;
+
+                if (count >= 10) {
+                    break;
+                }
             }
         }
+
         return onlineUsernames;
     }
+
     public static void reset() {
         users = new ArrayList<>();
         songs = new ArrayList<>();
         podcasts = new ArrayList<>();
         timestamp = 0;
     }
+
+
 }

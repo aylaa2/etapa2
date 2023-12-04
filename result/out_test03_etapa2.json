@@ -1,7 +1,37 @@
 [ {
+  "command" : "addUser",
+  "timestamp" : 5,
+  "user" : "melodymaster",
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 10,
+  "user" : "rhythmrider",
+  "message" : "The username rhythmrider has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 15,
+  "user" : "beatblazer",
+  "message" : "The username beatblazer has been added successfully."
+}, {
+  "command" : "addUser",
+  "timestamp" : 20,
+  "user" : "harmonichero",
+  "message" : "The username harmonichero has been added successfully."
+}, {
   "command" : "getOnlineUsers",
   "timestamp" : 25,
   "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29" ]
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 35,
+  "user" : "melodymaster",
+  "message" : "melodymaster has added new album successfully."
+}, {
+  "command" : "showAlbums",
+  "timestamp" : 40,
+  "user" : "beatblazer",
+  "result" : [ ]
 }, {
   "command" : "search",
   "user" : "alice22",

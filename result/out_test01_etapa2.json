@@ -141,10 +141,10 @@
   "timestamp" : 700,
   "user" : "alice22",
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Big Pimpin'",
+    "remainedTime" : 134,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 } ]

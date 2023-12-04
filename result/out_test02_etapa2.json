@@ -33,8 +33,31 @@
 }, {
   "command" : "like",
   "timestamp" : 280,
+  "message" : "alice22 is offline.",
+  "user" : "alice22"
+}, {
+  "command" : "addUser",
+  "timestamp" : 295,
+  "user" : "melodymaster",
+  "message" : "The username melodymaster has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 305,
+  "user" : "melodymaster",
+  "message" : "melodymaster has added new album successfully."
+}, {
+  "command" : "showAlbums",
+  "timestamp" : 350,
+  "user" : "melodymaster",
+  "result" : [ {
+    "name" : "Harmonic Horizons",
+    "songs" : [ "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ]
+  } ]
+}, {
+  "command" : "addUser",
+  "timestamp" : 380,
   "user" : "alice22",
-  "message" : "Please load a source before liking or unliking."
+  "message" : "The username alice22 is already taken."
 }, {
   "command" : "switchConnectionStatus",
   "timestamp" : 390,
@@ -46,6 +69,11 @@
   "timestamp" : 395,
   "message" : "Search returned 1 results",
   "results" : [ "Radio Ga Ga" ]
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 400,
+  "user" : "melodymaster",
+  "message" : "melodymaster has added new album successfully."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -67,4 +95,25 @@
   "timestamp" : 460,
   "user" : "alice22",
   "message" : "Please load a source before liking or unliking."
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 515,
+  "user" : "melodymaster",
+  "message" : "melodymaster has another album with the same name."
+}, {
+  "command" : "showAlbums",
+  "timestamp" : 550,
+  "user" : "melodymaster",
+  "result" : [ {
+    "name" : "Harmonic Horizons",
+    "songs" : [ "Vibrant Echoes", "Synth Symphony", "Retro Rhythms", "Digital Dreams", "Night Pulse" ]
+  }, {
+    "name" : "Echoes of Harmony",
+    "songs" : [ "Melodic Mirage", "Pop Serenade" ]
+  } ]
+}, {
+  "command" : "addAlbum",
+  "timestamp" : 560,
+  "user" : "melodymaster",
+  "message" : "melodymaster has the same song at least twice in this album."
 } ]

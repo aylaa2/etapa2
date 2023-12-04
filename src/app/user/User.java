@@ -1,6 +1,7 @@
 package app.user;
 
 import app.Admin;
+import app.audio.Collections.Album;
 import app.audio.Collections.AudioCollection;
 import app.audio.Collections.Playlist;
 import app.audio.Collections.PlaylistOutput;
@@ -13,6 +14,7 @@ import app.searchBar.Filters;
 import app.searchBar.SearchBar;
 import app.utils.Enums;
 import fileio.input.CommandInput;
+import fileio.input.SongInput;
 import lombok.Getter;
 
 import java.util.ArrayList;
@@ -34,7 +36,7 @@ public class User {
     private final Player player;
     private final SearchBar searchBar;
     private boolean lastSearched;
-    private Enums.UserType userType;
+    protected Enums.UserType userType;
     private boolean isOnline = true; // All users start as online by default
 
     public Enums.UserType getUserType() {
@@ -44,12 +46,14 @@ public class User {
     public boolean isOnline() {
         return isOnline;
     }
-
+    public void setUserType(Enums.UserType userType) {
+        this.userType = userType;
+    }
     public User(String username, int age, String city) {
         this.username = username;
         this.age = age;
         this.city = city;
-        this.userType = Enums.UserType.USER;
+        setUserType(Enums.UserType.USER);
         playlists = new ArrayList<>();
         likedSongs = new ArrayList<>();
         followedPlaylists = new ArrayList<>();
@@ -339,14 +343,52 @@ public class User {
     public void switchStatus() {
         this.isOnline = !this.isOnline;
         if (!isOnline) {
-            // Save the player's current state before stopping
-            //savedPlayerState = player.();
-            player.stop();
-        } else {
-            // Restore the player's state when the user comes back online
-            player.restoreState(savedPlayerState);
+            this.player.pause(); // Always toggle pause state, regardless of online/offline status
         }
     }
+
+    public static String addUser(String username, int age, String city, Enums.UserType userType) {
+        // Check if user already exists
+        User existingUser = Admin.getUser(username);
+        if (existingUser != null) {
+            return "The username " + username + " is already taken.";
+        }
+
+        User newUser;
+        switch (userType) {
+            case ARTIST:
+                newUser = new Artist(username, age, city);
+                break;
+            case HOST:
+                newUser = new Host(username, age, city);
+                break;
+            case USER:
+            default:
+                newUser = new User(username, age, city);
+                break;
+        }
+        Admin.addUser(newUser);
+
+        return "The username " + username + " has been added successfully.";
+    }
+    public static String handleAddAlbum(CommandInput commandInput) {
+        // Extract album information from the CommandInput
+        String name = commandInput.getName();
+        int releaseYear = commandInput.getReleaseYear();
+        String description = commandInput.getDescription();
+        List<SongInput> songs = commandInput.getSongs();
+
+        // Check if age is null and handle it
+        Integer ageObj = commandInput.getAge();
+        int age = (ageObj != null) ? ageObj : 0; // Replace 0 with a default age or handle differently
+
+        // Use the non-null age to create the Artist object
+        Artist artist = new Artist(commandInput.getUsername(), age, commandInput.getCity());
+
+        // Call the addAlbum method on the Artist object
+        return artist.addAlbum(name, releaseYear, description, songs);
+    }
+
 
 
 }

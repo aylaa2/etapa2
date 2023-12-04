@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 @Getter
 public abstract class LibraryEntry {
-    private final String name;
+    private final String name; // song name, album, playlist ...
 
     public LibraryEntry(String name) {
         this.name = name;
@@ -24,4 +24,5 @@ public abstract class LibraryEntry {
     public boolean matchesOwner(String user) { return false; }
     public boolean isVisibleToUser(String user) { return false; }
     public boolean matchesFollowers(String followers) { return false; }
+    public boolean matchesDescription (String followers) { return false; }
 }

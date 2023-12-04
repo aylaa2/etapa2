@@ -19,8 +19,8 @@ public class Enums { // diferite enumuri, le-am gurpat pe toate intr-un loc
     }
     public enum UserType {
         USER,
-        ARTIST,
-        HOST
+        ARTIST, // he can add albums + owns page
+        HOST // can add podcasts + owns page
     }
 
     public enum RepeatMode {

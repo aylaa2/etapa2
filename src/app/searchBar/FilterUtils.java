@@ -52,6 +52,20 @@ public class FilterUtils {
     public static List<LibraryEntry> filterByFollowers(List<LibraryEntry> entries, String followers) {
         return filter(entries, entry -> entry.matchesFollowers(followers));
     }
+    // In FilterUtils.java
+    public static List<LibraryEntry> filterByAlbumName(List<LibraryEntry> entries, String albumName) {
+        List<LibraryEntry> result = new ArrayList<>();
+        for (LibraryEntry entry : entries) {
+            if (entry.getName().startsWith(albumName)) {
+                result.add(entry);
+            }
+        }
+        return result;
+    }
+    public static List<LibraryEntry> filterByDescription(List<LibraryEntry> entries, String description) {
+        return filter(entries, entry -> entry.matchesDescription(description));
+    }
+
 
     private static List<LibraryEntry> filter(List<LibraryEntry> entries, FilterCriteria criteria) {
         List<LibraryEntry> result = new ArrayList<>();
