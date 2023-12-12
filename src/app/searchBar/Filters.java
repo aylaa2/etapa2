@@ -19,6 +19,7 @@ public class Filters {
     private String albumName;
     private String description;
 
+
     public Filters(FiltersInput filters) {
         this.name = filters.getName();
         this.album = filters.getAlbum();

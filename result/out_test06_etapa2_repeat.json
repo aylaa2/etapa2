@@ -12,45 +12,45 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 6,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Retro Rhythms" ]
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 10,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Night Pulse" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 15,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Night Pulse."
 }, {
   "command" : "load",
   "timestamp" : 20,
   "user" : "alice22",
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 25,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Retro Rhythms."
 }, {
   "command" : "status",
   "timestamp" : 30,
   "user" : "alice22",
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Night Pulse",
+    "remainedTime" : 230,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
   "timestamp" : 31,
   "user" : "alice22",
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat once."
 }, {
   "command" : "createPlaylist",
   "timestamp" : 31,
@@ -61,33 +61,33 @@
   "timestamp" : 32,
   "user" : "alice22",
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Night Pulse",
+    "remainedTime" : 228,
+    "repeat" : "Repeat Once",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "status",
   "timestamp" : 257,
   "user" : "alice22",
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
-    "repeat" : "No Repeat",
+    "name" : "Night Pulse",
+    "remainedTime" : 3,
+    "repeat" : "Repeat Once",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "repeat",
   "timestamp" : 258,
   "user" : "alice22",
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat infinite."
 }, {
   "command" : "repeat",
   "timestamp" : 258,
   "user" : "alice22",
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to no repeat."
 }, {
   "command" : "status",
   "timestamp" : 1000,
@@ -103,7 +103,7 @@
   "command" : "load",
   "timestamp" : 1000,
   "user" : "bob35",
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "createPlaylist",
   "timestamp" : 1005,
@@ -113,23 +113,28 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 1006,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Harmonic Horizons" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 1007,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Harmonic Horizons."
 }, {
   "command" : "load",
   "timestamp" : 1008,
   "user" : "alice22",
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
   "timestamp" : 1009,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
+}, {
+  "command" : "removeAlbum",
+  "user" : "melodymaster",
+  "timestamp" : 1010,
+  "message" : "melodymaster can't delete this album."
 }, {
   "command" : "search",
   "user" : "alice22",
@@ -150,7 +155,7 @@
   "command" : "addRemoveInPlaylist",
   "user" : "bob35",
   "timestamp" : 1012,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "alice22",
@@ -256,8 +261,8 @@
   "timestamp" : 1035,
   "user" : "alice22",
   "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 225,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 243,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -272,12 +277,17 @@
   "timestamp" : 1037,
   "user" : "alice22",
   "stats" : {
-    "name" : "Hustle Hard",
-    "remainedTime" : 223,
+    "name" : "Vibrant Echoes",
+    "remainedTime" : 241,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]",
+  "command" : "printCurrentPage",
+  "user" : "alice22",
+  "timestamp" : 1038
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -285,12 +295,17 @@
   "message" : "Search returned 0 results",
   "results" : [ ]
 }, {
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs]",
+  "command" : "printCurrentPage",
+  "user" : "carol19",
+  "timestamp" : 1040
+}, {
   "command" : "status",
   "timestamp" : 2099,
   "user" : "alice22",
   "stats" : {
-    "name" : "Butterfly Effect",
-    "remainedTime" : 179,
+    "name" : "Dream Chaser",
+    "remainedTime" : 7,
     "repeat" : "Repeat All",
     "shuffle" : false,
     "paused" : false
@@ -310,19 +325,24 @@
   "timestamp" : 2101,
   "user" : "alice22",
   "stats" : {
-    "name" : "Butterfly Effect",
-    "remainedTime" : 177,
+    "name" : "Dream Chaser",
+    "remainedTime" : 5,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
   }
 }, {
+  "command" : "changePage",
+  "user" : "carol19",
+  "timestamp" : 2102,
+  "message" : "carol19 accessed LikedContent successfully."
+}, {
   "command" : "status",
   "timestamp" : 2334,
   "user" : "alice22",
   "stats" : {
-    "name" : "Butterfly Effect",
-    "remainedTime" : 134,
+    "name" : "Dream Chaser",
+    "remainedTime" : 182,
     "repeat" : "Repeat Current Song",
     "shuffle" : false,
     "paused" : false
@@ -342,12 +362,17 @@
   "timestamp" : 2336,
   "user" : "alice22",
   "stats" : {
-    "name" : "Butterfly Effect",
-    "remainedTime" : 132,
+    "name" : "Dream Chaser",
+    "remainedTime" : 180,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
   }
+}, {
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[My favourite songs - alice22]",
+  "command" : "printCurrentPage",
+  "user" : "carol19",
+  "timestamp" : 2338
 }, {
   "command" : "status",
   "timestamp" : 3600,

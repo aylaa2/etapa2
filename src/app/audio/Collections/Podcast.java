@@ -2,6 +2,8 @@ package app.audio.Collections;
 
 import app.audio.Files.AudioFile;
 import app.audio.Files.Episode;
+import app.utils.Enums;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,6 +14,7 @@ public final class Podcast extends AudioCollection {
         super(name, owner);
         this.episodes = episodes;
     }
+
 
     public List<Episode> getEpisodes() {
         return episodes;

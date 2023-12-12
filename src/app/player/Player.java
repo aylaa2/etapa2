@@ -1,23 +1,29 @@
 package app.player;
 
+import app.audio.Collections.Album;
 import app.audio.Collections.AudioCollection;
+import app.audio.Collections.Playlist;
 import app.audio.Files.AudioFile;
 import app.audio.LibraryEntry;
 import app.utils.Enums;
 import lombok.Getter;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class Player {
     private Enums.RepeatMode repeatMode;
     private boolean shuffle;
     private boolean paused;
+    @Getter
     private PlayerSource source;
     @Getter
     private String type;
-    private boolean isOnline = true; // All users start as online by default
-    private ArrayList<PodcastBookmark> bookmarks = new ArrayList<>();
+    private boolean isOnline = true;
+    private final ArrayList<PodcastBookmark> bookmarks = new ArrayList<>();
+
 
     public void setPaused(boolean paused) {
         this.paused = paused;
@@ -69,16 +75,41 @@ public class Player {
     }
 
     public void setSource(LibraryEntry entry, String type) {
+        // Bookmark podcasts when the type is "podcast"
         if ("podcast".equals(this.type)) {
             bookmarkPodcast();
         }
+        if ("playlist".equals(this.type)) {
+            AudioCollection playlist = (AudioCollection) entry;
+            if (!playlist.getName().isEmpty()) {
+                this.source = new PlayerSource(Enums.PlayerSourceType.PLAYLIST, playlist);
+            }
+        }
+        // Handling setting an album source
+        if ("album".equals(type) && entry instanceof Album) {
+            Album album = (Album) entry;
+            if (!album.getSongs().isEmpty()) {
+                // Set the first song of the album as the current track
+                this.source = new PlayerSource(Enums.PlayerSourceType.ALBUM, album);
 
+            }
+        } else {
+            // Handle other source types
+            this.source = createSource(type, entry, bookmarks);
+        }
+
+        // Set the type, source, and player settings
         this.type = type;
-        this.source = createSource(type, entry, bookmarks);
         this.repeatMode = Enums.RepeatMode.NO_REPEAT;
         this.shuffle = false;
         this.paused = true;
+
+        // Update the active content based on the new source
+        if (this.source != null) {
+            updateActiveContent(this.source.getAudioFile(), this.source.getAudioCollection());
+        }
     }
+
 
     public void pause() {
         if (isOnline) {
@@ -172,10 +203,19 @@ public class Player {
     }
 
     public AudioFile getCurrentAudioFile() {
-        if (source == null)
+        if (source == null) {
             return null;
+        }
+
+        // Check if the source is of type Album and return the current track
+        if (source.getType() == Enums.PlayerSourceType.ALBUM) {
+            Album album = (Album) source.getAudioCollection();
+            return album.getTrackByIndex(source.getIndex());
+        }
+
         return source.getAudioFile();
     }
+
 
     public boolean getPaused() {
         return paused;
@@ -208,4 +248,51 @@ public class Player {
             // Add any other state properties you need to restore
         }
     }
+    public boolean isPlaying() {
+        return !this.paused && this.source != null;
+    }
+
+    public boolean isSourceActive(AudioFile file) {
+        return isPlaying() && this.source.getAudioFile().equals(file);
+    }
+
+    public boolean isCollectionActive(AudioCollection collection) {
+        if (this.source == null || this.source.getAudioCollection() == null) {
+            return false;
+        }
+        return this.source.getAudioCollection().equals(collection);
+    }
+
+
+        private static Set<AudioFile> activeSongs = new HashSet<>();
+        private static Set<AudioCollection> activeAlbums = new HashSet<>();
+
+        // Call this method whenever the currently playing song or album changes
+        private void updateActiveContent(AudioFile newSong, AudioCollection newAlbum) {
+            // Remove the previous song and album from the active sets
+            if (this.source != null) {
+                activeSongs.remove(this.source.getAudioFile());
+                activeAlbums.remove(this.source.getAudioCollection());
+            }
+
+            // Add the new song and album to the active sets
+            if (newSong != null) {
+                activeSongs.add(newSong);
+            }
+            if (newAlbum != null) {
+                activeAlbums.add(newAlbum);
+            }
+        }
+
+
+        public static boolean isSongActive(AudioFile song) {
+            return activeSongs.contains(song);
+        }
+
+        public static boolean isAlbumActive(AudioCollection album) {
+            return activeAlbums.contains(album);
+        }
+
+
+
 }

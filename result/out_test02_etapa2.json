@@ -67,8 +67,8 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 395,
-  "message" : "Search returned 1 results",
-  "results" : [ "Radio Ga Ga" ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Radio Ga Ga", "Retro Rhythms" ]
 }, {
   "command" : "addAlbum",
   "timestamp" : 400,
@@ -78,23 +78,28 @@
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 420,
-  "message" : "Search returned 3 results",
-  "results" : [ "Money Trees", "Maps", "Moves Like Jagger" ]
+  "message" : "Search returned 4 results",
+  "results" : [ "Money Trees", "Maps", "Moves Like Jagger", "Melodic Mirage" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 430,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Melodic Mirage."
 }, {
   "command" : "load",
   "timestamp" : 440,
   "user" : "alice22",
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "timestamp" : 460,
   "user" : "alice22",
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
+}, {
+  "message" : "Liked songs:\n\t[Melodic Mirage]\n\nFollowed playlists:\n\t[]",
+  "command" : "printCurrentPage",
+  "user" : "alice22",
+  "timestamp" : 480
 }, {
   "command" : "addAlbum",
   "timestamp" : 515,

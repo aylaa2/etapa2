@@ -2,7 +2,10 @@ package app.searchBar;
 
 
 import app.Admin;
+import app.audio.Collections.Album;
 import app.audio.LibraryEntry;
+import app.user.User;
+import app.utils.Enums;
 import lombok.Getter;
 
 import java.util.ArrayList;
@@ -15,7 +18,7 @@ public class SearchBar {
     private List<LibraryEntry> results;
     private final String user;
     private static final Integer MAX_RESULTS = 5;
-    @Getter
+    private static SearchBar instance;
     private String lastSearchType;
 
     @Getter
@@ -24,6 +27,16 @@ public class SearchBar {
     public SearchBar(String user) {
         this.results = new ArrayList<>();
         this.user = user;
+    }
+
+
+    public  String getLastSearchType() {
+        return lastSearchType;
+    }
+
+
+    public void setLastSearchType(String type) {
+        this.lastSearchType = type;
     }
 
     public void clearSelection() {
@@ -97,10 +110,10 @@ public class SearchBar {
 
                 break;
             case "album":
-                entries = new ArrayList<>(Admin.getAlbums());
+                entries = new ArrayList<>(Admin.getAlbumss());
 
-                if (filters.getAlbumName() != null) {
-                    entries = filterByAlbumName(entries, filters.getAlbumName());
+                if (filters.getName() != null) {
+                    entries = filterByName(entries, filters.getName());
                 }
 
                 if (filters.getOwner() != null) {
@@ -110,6 +123,21 @@ public class SearchBar {
                 if (filters.getDescription() != null) {
                     entries = filterByDescription(entries, filters.getDescription());
                 }
+                break;
+            case "artist":
+                entries = new ArrayList<>(Admin.getArtists());
+
+                if (filters.getName() != null) {
+                    entries = filterByName(entries, filters.getName());
+                }
+                break;
+            case "host":
+                entries = new ArrayList<>(Admin.getHosts());
+
+                if (filters.getName() != null) {
+                    entries = filterByName(entries, filters.getName());
+                }
+
                 break;
             default:
                 entries = new ArrayList<>();
@@ -123,8 +151,8 @@ public class SearchBar {
         this.lastSearchType = type;
         return this.results;
     }
-
-    public LibraryEntry select(Integer itemNumber) {
+    private Album lastSelectedAlbum;
+    public LibraryEntry select(int itemNumber) {
         if (this.results.size() < itemNumber) {
             results.clear();
 
@@ -136,4 +164,5 @@ public class SearchBar {
             return lastSelected;
         }
     }
+
 }

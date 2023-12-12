@@ -1,8 +1,10 @@
 package app.audio;
 
+import app.utils.Enums;
 import lombok.Getter;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 @Getter
 public abstract class LibraryEntry {
@@ -25,4 +27,8 @@ public abstract class LibraryEntry {
     public boolean isVisibleToUser(String user) { return false; }
     public boolean matchesFollowers(String followers) { return false; }
     public boolean matchesDescription (String followers) { return false; }
+
+
+
+
 }

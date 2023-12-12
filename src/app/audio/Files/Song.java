@@ -1,5 +1,6 @@
 package app.audio.Files;
 
+import app.utils.Enums;
 import lombok.Getter;
 
 import java.util.ArrayList;
@@ -15,6 +16,7 @@ public final class Song extends AudioFile {
     private final String artist;
     private Integer likes;
 
+
     public Song(String name, Integer duration, String album, ArrayList<String> tags, String lyrics,
                 String genre, Integer releaseYear, String artist) {
         super(name, duration);
@@ -29,7 +31,7 @@ public final class Song extends AudioFile {
 
     @Override
     public boolean matchesAlbum(String album) {
-        return this.getAlbum().equalsIgnoreCase(album);
+        return this.album != null && this.album.equalsIgnoreCase(album);
     }
 
     @Override

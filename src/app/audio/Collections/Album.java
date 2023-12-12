@@ -1,7 +1,7 @@
 package app.audio.Collections;
 
 import app.audio.Files.Song;
-import fileio.input.SongInput;
+import app.utils.Enums;
 import lombok.Getter;
 
 import java.util.ArrayList;
@@ -10,33 +10,35 @@ import java.util.List;
 
 @Getter
 public final class Album extends AudioCollection {
-    private int releaseYear;
-    private String description;
-    private List<Song> songs; // Store Song objects instead of SongInput
+    private final int releaseYear;
+    private final String description;
+    private final List<Song> songs;
 
-    public Album(String name, String owner, String description, int releaseYear, List<SongInput> songInputs) {
+    public Album(String name, String owner, String description, int releaseYear, List<Song> songInputs) {
         super(name, owner);
         this.description = description;
         this.releaseYear = releaseYear;
-        this.songs = new ArrayList<>();
+        this.songs = new ArrayList<>(songInputs);
 
-        // Convert SongInput objects to Song objects
-        for (SongInput songInput : songInputs) {
-            // Assuming Song constructor takes similar parameters as SongInput
-            Song song = new Song(songInput.getName(), songInput.getDuration(), songInput.getAlbum(), songInput.getTags(), songInput.getLyrics(), songInput.getGenre(), songInput.getReleaseYear(), songInput.getArtist());
-            this.songs.add(song);
-        }
     }
+//    @Override
+//    public Enums.PageType getPageType() {
+//        // Determine what page type is appropriate for Playlist
+//        // This is just an example. You should replace it with what makes sense for your application
+//        return Enums.PageType.ARTISTPAGE;
+//    }
 
     @Override
     public int getNumberOfTracks() {
         return songs.size();
     }
 
-
-    public boolean matchesName(String searchText) {
-        return getName().startsWith(searchText);
+    @Override
+    public boolean matchesName(String name) {
+        return getName().toLowerCase().startsWith(name.toLowerCase());
     }
+
+
     @Override
     public boolean matchesDescription(String descriptionText) {
         return description != null && description.contains(descriptionText);

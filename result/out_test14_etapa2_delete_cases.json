@@ -39,6 +39,35 @@
   "user" : "musicmaven",
   "message" : "The username musicmaven has been added successfully."
 }, {
+  "command" : "getAllUsers",
+  "timestamp" : 85,
+  "result" : [ "alice22", "bob35", "carol19", "david27", "emily30", "frank21", "grace25", "henry26", "irene33", "jack29", "soundseeker21", "melodicwanderer", "sonicpainter", "echoexplorer", "rhythmweaver", "audiosage", "soundcurator", "musicmaven" ]
+}, {
+  "command" : "addPodcast",
+  "user" : "audiosage",
+  "timestamp" : 280,
+  "message" : "audiosage has added new podcast successfully."
+}, {
+  "command" : "addPodcast",
+  "user" : "audiosage",
+  "timestamp" : 285,
+  "message" : "audiosage has added new podcast successfully."
+}, {
+  "command" : "addPodcast",
+  "user" : "musicmaven",
+  "timestamp" : 290,
+  "message" : "musicmaven has added new podcast successfully."
+}, {
+  "command" : "addPodcast",
+  "user" : "musicmaven",
+  "timestamp" : 295,
+  "message" : "musicmaven has added new podcast successfully."
+}, {
+  "command" : "addPodcast",
+  "user" : "musicmaven",
+  "timestamp" : 300,
+  "message" : "musicmaven has added new podcast successfully."
+}, {
   "command" : "createPlaylist",
   "timestamp" : 305,
   "user" : "melodicwanderer",
@@ -52,39 +81,39 @@
   "command" : "search",
   "user" : "melodicwanderer",
   "timestamp" : 315,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 2 results",
+  "results" : [ "Aurora Harmony", "Azure Echoes" ]
 }, {
   "command" : "select",
   "user" : "melodicwanderer",
   "timestamp" : 320,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Azure Echoes."
 }, {
   "command" : "load",
   "timestamp" : 325,
   "user" : "melodicwanderer",
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "melodicwanderer",
   "timestamp" : 330,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "alice22",
   "timestamp" : 335,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Rhythmic Dialogues" ]
 }, {
   "command" : "select",
   "user" : "alice22",
   "timestamp" : 340,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Rhythmic Dialogues."
 }, {
   "command" : "load",
   "timestamp" : 345,
   "user" : "alice22",
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -105,39 +134,49 @@
   "command" : "search",
   "user" : "bob35",
   "timestamp" : 365,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Aurora Harmony" ]
 }, {
   "command" : "select",
   "user" : "bob35",
   "timestamp" : 370,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Aurora Harmony."
 }, {
   "command" : "load",
   "timestamp" : 375,
   "user" : "bob35",
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "like",
   "timestamp" : 380,
   "user" : "bob35",
-  "message" : "Please load a source before liking or unliking."
+  "message" : "Like registered successfully."
 }, {
   "command" : "repeat",
   "timestamp" : 480,
   "user" : "melodicwanderer",
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat once."
+}, {
+  "message" : "Liked songs:\n\t[Aurora Harmony]\n\nFollowed playlists:\n\t[Playlist bengos]",
+  "command" : "printCurrentPage",
+  "user" : "bob35",
+  "timestamp" : 525
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 620,
+  "user" : "sonicpainter",
+  "message" : "sonicpainter can't be deleted."
 }, {
   "command" : "search",
   "user" : "soundseeker21",
   "timestamp" : 625,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "audiosage" ]
 }, {
   "command" : "select",
   "user" : "soundseeker21",
   "timestamp" : 630,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected audiosage's page."
 }, {
   "command" : "search",
   "user" : "carol19",
@@ -158,31 +197,106 @@
   "command" : "load",
   "timestamp" : 740,
   "user" : "carol19",
-  "message" : "You can't load an empty audio collection!"
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "search",
   "user" : "david27",
   "timestamp" : 760,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "sonicpainter" ]
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 900,
+  "user" : "sonicpainter",
+  "message" : "sonicpainter can't be deleted."
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 930,
+  "user" : "audiosage",
+  "message" : "audiosage was successfully deleted."
+}, {
+  "command" : "changePage",
+  "user" : "soundseeker21",
+  "timestamp" : 955,
+  "message" : "soundseeker21 accessed Home successfully."
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 960,
+  "user" : "melodicwanderer",
+  "message" : "melodicwanderer can't be deleted."
 }, {
   "command" : "repeat",
   "timestamp" : 965,
   "user" : "carol19",
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat all."
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 975,
+  "user" : "sonicpainter",
+  "message" : "sonicpainter can't be deleted."
+}, {
+  "command" : "removePodcast",
+  "user" : "musicmaven",
+  "timestamp" : 980,
+  "message" : "musicmaven can't delete this podcast."
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 1100,
+  "user" : "audiosage",
+  "message" : "The username audiosage doesn't exist."
 }, {
   "command" : "select",
   "user" : "david27",
   "timestamp" : 1225,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected sonicpainter's page."
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 1500,
+  "user" : "melodicwanderer",
+  "message" : "melodicwanderer can't be deleted."
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 6900,
+  "user" : "musicmaven",
+  "message" : "musicmaven can't be deleted."
 }, {
   "command" : "repeat",
   "timestamp" : 7200,
   "user" : "carol19",
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to repeat current song."
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 7225,
+  "user" : "sonicpainter",
+  "message" : "sonicpainter can't be deleted."
 }, {
   "command" : "repeat",
   "timestamp" : 7505,
   "user" : "carol19",
-  "message" : "Please load a source before setting the repeat status."
+  "message" : "Repeat mode changed to no repeat."
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 7855,
+  "user" : "melodicwanderer",
+  "message" : "melodicwanderer was successfully deleted."
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 7860,
+  "user" : "sonicpainter",
+  "message" : "sonicpainter was successfully deleted."
+}, {
+  "command" : "changePage",
+  "user" : "david27",
+  "timestamp" : 7885,
+  "message" : "david27 accessed Home successfully."
+}, {
+  "command" : "deleteUser",
+  "timestamp" : 7890,
+  "user" : "sonicpainter",
+  "message" : "The username sonicpainter doesn't exist."
+}, {
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[Playlist bengos]",
+  "command" : "printCurrentPage",
+  "user" : "bob35",
+  "timestamp" : 7900
 } ]

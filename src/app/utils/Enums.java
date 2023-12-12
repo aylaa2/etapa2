@@ -22,12 +22,18 @@ public class Enums { // diferite enumuri, le-am gurpat pe toate intr-un loc
         ARTIST, // he can add albums + owns page
         HOST // can add podcasts + owns page
     }
+    public enum PageType {
+        HOMEPAGE,
+        LIKEDCONTENTPAGE,
+        ArtistPage,
+        HostPage
+    }
 
     public enum RepeatMode {
         REPEAT_ALL, REPEAT_ONCE, REPEAT_INFINITE, REPEAT_CURRENT_SONG, NO_REPEAT,
     }
 
     public enum PlayerSourceType {
-        LIBRARY, PLAYLIST, PODCAST
+        LIBRARY, PLAYLIST, PODCAST, ALBUM
     }
 }

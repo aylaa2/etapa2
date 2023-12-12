@@ -1,5 +1,6 @@
 package app.audio.Files;
 
+import app.utils.Enums;
 import lombok.Getter;
 
 @Getter

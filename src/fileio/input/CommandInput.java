@@ -18,7 +18,6 @@ public final class CommandInput {
     private Integer seed; // pentru shuffle
     private String city;
     private Integer age;
-
     private String name;
     private Integer releaseYear;
     private List<SongInput> songs;

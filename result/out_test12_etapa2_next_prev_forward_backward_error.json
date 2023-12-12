@@ -17,23 +17,23 @@
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 170,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Digital Dreams" ]
 }, {
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 190,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Digital Dreams."
 }, {
   "command" : "load",
   "timestamp" : 195,
   "user" : "emily30",
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "addRemoveInPlaylist",
   "user" : "emily30",
   "timestamp" : 240,
-  "message" : "Please load a source before adding to or removing from the playlist."
+  "message" : "Successfully added to playlist."
 }, {
   "command" : "search",
   "user" : "emily30",
@@ -97,8 +97,8 @@
   "timestamp" : 1220,
   "user" : "emily30",
   "stats" : {
-    "name" : "Swimming Pools (Drank)",
-    "remainedTime" : 222,
+    "name" : "Digital Dreams",
+    "remainedTime" : 235,
     "repeat" : "No Repeat",
     "shuffle" : false,
     "paused" : false
@@ -107,50 +107,50 @@
   "command" : "next",
   "timestamp" : 1240,
   "user" : "emily30",
-  "message" : "Please load a source before skipping to the next track."
+  "message" : "Skipped to next track successfully. The current track is Swimming Pools (Drank)."
 }, {
   "command" : "status",
   "timestamp" : 1250,
   "user" : "emily30",
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Swimming Pools (Drank)",
+    "remainedTime" : 237,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "prev",
   "user" : "emily30",
   "timestamp" : 1260,
-  "message" : "Please load a source before returning to the previous track."
+  "message" : "Returned to previous track successfully. The current track is Swimming Pools (Drank)."
 }, {
   "command" : "status",
   "timestamp" : 1320,
   "user" : "emily30",
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Swimming Pools (Drank)",
+    "remainedTime" : 187,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "forward",
   "timestamp" : 1350,
   "user" : "emily30",
-  "message" : "Please load a source before attempting to forward."
+  "message" : "The loaded source is not a podcast."
 }, {
   "command" : "backward",
   "user" : "emily30",
   "timestamp" : 1390,
-  "message" : "Please select a source before rewinding."
+  "message" : "The loaded source is not a podcast."
 }, {
   "command" : "search",
   "user" : "emily30",
   "timestamp" : 2000,
-  "message" : "Search returned 0 results",
-  "results" : [ ]
+  "message" : "Search returned 1 results",
+  "results" : [ "Harmonic Horizons" ]
 }, {
   "command" : "forward",
   "timestamp" : 2120,
@@ -160,27 +160,27 @@
   "command" : "select",
   "user" : "emily30",
   "timestamp" : 2190,
-  "message" : "The selected ID is too high."
+  "message" : "Successfully selected Harmonic Horizons."
 }, {
   "command" : "load",
   "timestamp" : 2200,
   "user" : "emily30",
-  "message" : "Please select a source before attempting to load."
+  "message" : "Playback loaded successfully."
 }, {
   "command" : "forward",
   "timestamp" : 3120,
   "user" : "emily30",
-  "message" : "Please load a source before attempting to forward."
+  "message" : "The loaded source is not a podcast."
 }, {
   "command" : "status",
   "timestamp" : 3220,
   "user" : "emily30",
   "stats" : {
-    "name" : "",
-    "remainedTime" : 0,
+    "name" : "Digital Dreams",
+    "remainedTime" : 10,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : true
+    "paused" : false
   }
 }, {
   "command" : "forward",
