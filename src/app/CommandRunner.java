@@ -810,6 +810,13 @@ public final class CommandRunner {
 
         return objectNode;
     }
+
+    /**
+     * deleteUser
+     *
+     * @param commandInput the command input
+     * @return a
+     */
     public static ObjectNode deleteUser(final CommandInput commandInput) {
         User existingUser = Admin.getUser(commandInput.getUsername());
 

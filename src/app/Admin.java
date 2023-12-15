@@ -436,28 +436,6 @@ public final class Admin {
         }
     }
 
-
-    private static void deleteFollowedPlaylists(final User user) {
-        List<Playlist> followedPlaylists = user.getFollowedPlaylists();
-        for (Iterator<Playlist> iterator = followedPlaylists.iterator(); iterator.hasNext();) {
-            Playlist playlist = iterator.next();
-            iterator.remove(); // This removes the playlist from followedPlaylists safely
-            playlist.decreaseFollowers();
-        }
-        followedPlaylists.clear();
-    }
-
-    // Check if the album or its songs are loaded by a normal user
-//        if (Admin.isAlbumOrSongsLoadedByUser(albumToRemove)) {
-//            return getUsername() + " can't delete this album
-//            as it is currently loaded by a user.";
-//        }
-//
-//        // Check if a playlist contains a song from the album
-//        if (Admin.isAlbumInAnyPlaylist(albumToRemove)) {
-//            return getUsername() + " can't delete this album as
-//            its songs are in a user's playlist.";
-//        }
     /**
      *  checks if user hasActiveInteractions
      *
@@ -610,20 +588,34 @@ public final class Admin {
                 removeHostContent((Host) user);
                 break;
             case USER:
-                //deleteFollowedPlaylists(user);
                 List<Song> likedSongs = user.getLikedSongs();
                 for (Song song : likedSongs) {
                     int currentLikes = song.getLikes();
                     song.setLikes(currentLikes - 1);
                 }
 
-                ArrayList<Playlist> followedPlaylists = user
-                        .getFollowedPlaylists();
-                System.out.println(followedPlaylists);
-                for (Playlist playlist : followedPlaylists) {
+                for (Playlist playlist : user.getFollowedPlaylists()) {
                     playlist.decreaseFollowers();
-                    user.setFollowedPlaylists(followedPlaylists);
                 }
+
+                ArrayList<Playlist> ownedPlaylists = user.getPlaylists();
+
+                for (Playlist playlist : ownedPlaylists) {
+
+                    getPlaylists().remove(playlist);
+
+
+                    for (User follower : getNormalUsers()) {
+                        if (follower.getFollowedPlaylists().contains(playlist)) {
+                            follower.getFollowedPlaylists().remove(playlist);
+                        }
+                    }
+
+                    playlist.decreaseFollowers();
+                }
+
+                // Clear the user's list of owned playlists
+                user.getPlaylists().clear();
 
                 break;
             default:

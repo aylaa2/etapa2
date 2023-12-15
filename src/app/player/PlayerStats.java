@@ -10,8 +10,10 @@ public class PlayerStats {
     private String repeat;
     private final boolean shuffle;
     private  boolean paused;
-
-    public void setPaused(boolean paused) {
+    /**
+     * setPaused
+     */
+    public void setPaused(final boolean paused) {
         this.paused = paused;
     }
 

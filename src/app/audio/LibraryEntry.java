@@ -7,6 +7,7 @@ import java.util.ArrayList;
 public abstract class LibraryEntry {
     private final String name; // song name, album, playlist ...
 
+
     /**
      * Constructor for LibraryEntry.
      *

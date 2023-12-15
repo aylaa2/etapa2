@@ -13,13 +13,23 @@ import lombok.Setter;
 
 import java.util.*;
 
+/**
+ * Represents a user with the role of a host who can manage podcasts and announcements.
+ */
 @Getter
 public class Host extends User {
     private final List<Podcast> podcasts;
-    public List<Episode> episodesForNewPodcast;
+    private List<Episode> episodesForNewPodcast;
     @Getter
     private  List<Announcement> announcements;
-    public Host(String username, int age, String city) {
+    /**
+     * Initializes a new Host instance.
+     *
+     * @param username The username of the host.
+     * @param age      The age of the host.
+     * @param city     The city of the host.
+     */
+    public Host(final String username, final int age, final String city) {
         super(username, age, city);
         this.episodesForNewPodcast = new ArrayList<>();
         this.podcasts = new ArrayList<>();
@@ -27,12 +37,22 @@ public class Host extends User {
         setUserType(Enums.UserType.HOST);
     }
 
-
+    /**
+     * Returns the list of podcasts associated with this host.
+     *
+     * @return The list of podcasts.
+     */
     public List<Podcast> showPodcasts() {
         return podcasts;
     }
 
-    // Add a new podcast
+    /**
+     * Adds a new podcast to the host's list of podcasts.
+     *
+     * @param name          The name of the podcast.
+     * @param episodeInputs The list of episode inputs for the new podcast.
+     * @return A message indicating the result of the operation.
+     */
     public String addPodcast(final String name, final List<EpisodeInput> episodeInputs) {
         setUserType(Enums.UserType.HOST);
         for (Podcast podcast : podcasts) {
@@ -52,7 +72,8 @@ public class Host extends User {
         List<Episode> adminEpisodeList = Admin.getEpisode();
 
         for (EpisodeInput episodeInput : episodeInputs) {
-            Episode episode = new Episode(episodeInput.getName(), episodeInput.getDuration(), episodeInput.getDescription());
+            Episode episode = new Episode(episodeInput.getName(),
+                    episodeInput.getDuration(), episodeInput.getDescription());
             episodesForNewPodcast.add(episode);
             adminEpisodeList.add(episode);
         }
@@ -66,20 +87,32 @@ public class Host extends User {
         Admin.addNewPodcast(newPodcast);
         return getUsername() + " has added new podcast successfully.";
     }
-
+    /**
+     * Represents an announcement made by the host.
+     */
     @Getter
     public static class Announcement {
         private String name;
         private String description;
         private User user;
-
-        public Announcement(String name, String description, User user) {
+        /**
+         * Initializes a new Announcement instance.
+         *
+         * @param name        The name of the announcement.
+         * @param description The description of the announcement.
+         * @param user        The host who made the announcement.
+         */
+        public Announcement(final String name, final String description, final User user) {
             this.user = user;
             this.name = name;
             this.description = description;
         }
 
-
+        /**
+         * Returns a formatted string representation of the announcement.
+         *
+         * @return The formatted announcement.
+         */
         @Override
         public String toString() {
             return name + ":\n\t" + description + "\n";
@@ -87,11 +120,21 @@ public class Host extends User {
     }
 
 
-
+    /**
+     * Returns the list of announcements made by this host.
+     *
+     * @return The list of announcements.
+     */
     public  List<Announcement> getAnnouncements() {
         return announcements;
     }
-
+    /**
+     * Adds a new announcement made by this host.
+     *
+     * @param name        The name of the announcement.
+     * @param description The description of the announcement.
+     * @return A message indicating the result of the operation.
+     */
     public String addAnnouncement(final String name, final String description) {
         setUserType(Enums.UserType.HOST);
 
@@ -106,11 +149,17 @@ public class Host extends User {
 
         return getUsername() + " has successfully added new announcement.";
     }
-
+    /**
+     * Removes an announcement made by this host.
+     *
+     * @param host      The host who made the announcement.
+     * @param nameAnounc The name of the announcement to be removed.
+     * @return A message indicating the result of the operation.
+     */
     public String removeAnnouncement(final Host host, final String nameAnounc) {
 
-        for(Announcement announcementss : host.getAnnouncements()){
-            if( announcementss.getName().equals(nameAnounc)){
+        for (Announcement announcementss : host.getAnnouncements()) {
+            if (announcementss.getName().equals(nameAnounc)) {
                 announcements.remove(announcementss);
                 return getUsername() + " has successfully deleted the announcement.";
             }
@@ -128,7 +177,11 @@ public class Host extends User {
         private List<String> episodes = new ArrayList<>();
 
     }
-
+    /**
+     * Retrieves a list of formatted podcasts with only their names.
+     *
+     * @return A list of PartialPodcast instances with names only.
+     */
     public List<PartialPodcast> getFormattedPodcasts() {
         List<PartialPodcast> partialPodcasts = new ArrayList<>();
 
@@ -145,7 +198,11 @@ public class Host extends User {
 
         return partialPodcasts;
     }
-
+    /**
+     * Retrieves a list of formatted podcasts with names and descriptions.
+     *
+     * @return A list of PartialPodcast instances with names and descriptions.
+     */
     public List<PartialPodcast> getFormattedPodcastss() {
         List<PartialPodcast> partialPodcasts = new ArrayList<>();
 
@@ -154,7 +211,8 @@ public class Host extends User {
             partialPodcast.setName(podcast.getName());
 
             for (Episode episode : podcast.getEpisodes()) {
-                partialPodcast.getEpisodes().add(episode.getName() + " - " + episode.getDescription());
+                partialPodcast.getEpisodes().add(episode.getName()
+                        + " - " + episode.getDescription());
             }
 
             partialPodcasts.add(partialPodcast);
@@ -163,7 +221,11 @@ public class Host extends User {
         return partialPodcasts;
     }
 
-
+    /**
+     * removePodcast
+     *
+     * @return A podcastName
+     */
     public String removePodcast(final String podcastName) {
         setUserType(Enums.UserType.HOST);
 

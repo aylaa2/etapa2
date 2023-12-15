@@ -12,23 +12,44 @@ import lombok.Setter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
-
+/**
+ * Represents an artist user.
+ */
 public class Artist extends User {
     private final List<Album> albums;
     @Getter
     private  List<Song> songsForNewAlbum;
-
+    /**
+     * Retrieves a list of albums created by the artist.
+     *
+     * @return A list of albums.
+     */
     public List<Album> getAlbums() {
         return albums;
     }
-
-    public Artist(String username, int age, String city) {
+    /**
+     * Constructor for creating an artist user.
+     *
+     * @param username The artist's username.
+     * @param age      The artist's age.
+     * @param city     The artist's city.
+     */
+    public Artist(final String username, final int age, final String city) {
         super(username, age, city);
         this.albums = new ArrayList<>();
         setUserType(Enums.UserType.ARTIST);
     }
-
-    public String addAlbum(final String name, final int releaseYear, final String description, final List<SongInput> songInputs) {
+    /**
+     * Adds a new album for the artist.
+     *
+     * @param name        The name of the album.
+     * @param releaseYear The release year of the album.
+     * @param description The description of the album.
+     * @param songInputs  The list of songs to be added to the album.
+     * @return A message indicating the success or failure of the operation.
+     */
+    public String addAlbum(final String name, final int releaseYear,
+                           final String description, final List<SongInput> songInputs) {
         setUserType(Enums.UserType.ARTIST);
 
         for (Album album : albums) {
@@ -65,12 +86,18 @@ public class Artist extends User {
         Admin.setSongList(adminSongList);
 
         // Create the new album with its specific list of songs
-        Album newAlbum = new Album(name, this.getUsername(), description, releaseYear, songsForNewAlbum);
+        Album newAlbum = new Album(name, this.getUsername(),
+                description, releaseYear, songsForNewAlbum);
         albums.add(newAlbum);
         Admin.addGlobalAlbum(newAlbum);
         return getUsername() + " has added new album successfully.";
     }
 
+    /**
+     * Retrieves a list of albums created by the artist.
+     *
+     * @return A list of albums.
+     */
     public List<Album> showAlbums() {
         return albums;
     }
@@ -81,7 +108,11 @@ public class Artist extends User {
         private String name;
         private List<String> songs = new ArrayList<>();
     }
-
+    /**
+     * Retrieves a list of formatted albums with their song names.
+     *
+     * @return A list of formatted albums.
+     */
     public List<PartialAlbum> getFormattedAlbums() {
         List<PartialAlbum> partialAlbums = new ArrayList<>();
 
@@ -96,7 +127,12 @@ public class Artist extends User {
 
         return partialAlbums;
     }
-
+    /**
+     * Removes an album created by the artist.
+     *
+     * @param albumName The name of the album to be removed.
+     * @return A message indicating the success or failure of the operation.
+     */
     public String removeAlbum(final String albumName) {
         // Check if the artist has an album with the given name
         Album albumToRemove = null;
@@ -127,11 +163,22 @@ public class Artist extends User {
     }
 
     private static List<Event> events = new ArrayList<>();
-
+    /**
+     * Retrieves a list of events associated with the artist.
+     *
+     * @return A list of events.
+     */
     public static List<Event> getEvents() {
         return events;
     }
-
+    /**
+     * Adds a new event for the artist.
+     *
+     * @param name        The name of the event.
+     * @param description The description of the event.
+     * @param dateString  The date of the event as a string in "dd-MM-yyyy" format.
+     * @return A message indicating the success or failure of the operation.
+     */
     public String addEvent(final String name, final String description, final String dateString) {
         setUserType(Enums.UserType.ARTIST);
         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
@@ -184,7 +231,12 @@ public class Artist extends User {
             this.date = date;
         }
     }
-
+    /**
+     * Removes an event associated with the artist.
+     *
+     * @param eventName The name of the event to be removed.
+     * @return A message indicating the success or failure of the operation.
+     */
     public String removeEvent(final String eventName) {
         Iterator<Event> iterator = events.iterator();
 
@@ -204,7 +256,13 @@ public class Artist extends User {
         private String name;
         private String description;
         private double price;
-
+        /**
+         * Constructor for creating merchandise.
+         *
+         * @param name        The name of the merchandise.
+         * @param description The description of the merchandise.
+         * @param price       The price of the merchandise.
+         */
         public Merchandise(final String name, final String description, final double price) {
             this.name = name;
             this.description = description;
@@ -214,12 +272,26 @@ public class Artist extends User {
     }
 
     private static List<Merchandise> merchList = new ArrayList<>();
-
+    /**
+     * Retrieves a list of merchandise associated with the artist.
+     *
+     * @return A list of merchandise.
+     */
     public static List<Merchandise> getMerchList() {
         return merchList;
     }
 
-    public String addMerch(final String name, final String description, final double price) {
+    /**
+     * Adds new merchandise for the artist.
+     *
+     * @param name        The name of the merchandise.
+     * @param description The description of the merchandise.
+     * @param price       The price of the merchandise.
+     * @return A message indicating the success or failure of the operation.
+     */
+    public String addMerch(final String name, final String description,
+                           final double price) {
+        setUserType(Enums.UserType.ARTIST);
         setUserType(Enums.UserType.ARTIST);
         if (price < 0) {
             return "Price for merchandise can not be negative.";

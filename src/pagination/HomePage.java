@@ -35,17 +35,19 @@ public class HomePage extends Page {
 
         sb.append("Liked songs:\n\t");
         sb.append(formatList(userLikedSongs));
+
+        List<String> userFollowedPlaylists = getOwner().getFollowedPlaylists().stream()
+                .map(Playlist::getName) // Convert to names
+                .collect(Collectors.toList());
+
         sb.append("\n\nFollowed playlists:\n\t");
 
-        List<String> formattedPlaylists = getOwner()
-                .getFollowedPlaylists().stream()
-                .map(p -> p.getName())
-                .collect(Collectors.toList());
-        if (formattedPlaylists.isEmpty()) {
+        if (userFollowedPlaylists.isEmpty()) {
             sb.append("[]");
         } else {
-            sb.append(formatList(formattedPlaylists));
+            sb.append(formatList(userFollowedPlaylists));
         }
+
         return sb.toString();
     }
 

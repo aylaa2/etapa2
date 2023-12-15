@@ -179,7 +179,8 @@ public class User extends LibraryEntry {
             return "The selected ID is too high.";
         }
 
-        return "Successfully selected %s.".formatted(selected.getName());
+        return "Successfully selected %s."
+                .formatted(selected.getName());
     }
 
 
@@ -194,7 +195,8 @@ public class User extends LibraryEntry {
         }
 
         if (!searchBar.getLastSearchType().equals("song")
-                && ((AudioCollection) searchBar.getLastSelected()).getNumberOfTracks() == 0) {
+                && ((AudioCollection) searchBar.getLastSelected())
+                .getNumberOfTracks() == 0) {
             return "You can't load an empty audio collection!";
         }
 
@@ -205,7 +207,8 @@ public class User extends LibraryEntry {
             }
         }
 
-        player.setSource(searchBar.getLastSelected(), searchBar.getLastSearchType());
+        player.setSource(searchBar.getLastSelected(), searchBar
+                .getLastSearchType());
 
         searchBar.clearSelection();
 
@@ -508,33 +511,6 @@ public class User extends LibraryEntry {
     }
 
     /**
-     * Removes a playlist from the list of playlists followed by the user.
-     *
-     *
-     */
-    public void removeUserFollowedPlaylists(final User user) {
-        if (user == null) {
-            return;
-        }
-
-        List<Playlist> followedPlaylists = getFollowedPlaylists();
-        List<Playlist> playlistsToRemove = new ArrayList<>();
-
-        // Identify playlists to remove
-        for (Playlist playlist : followedPlaylists) {
-            if (playlist.getOwner().equals(user.getUsername())) {
-                playlist.decreaseFollowers();
-                playlistsToRemove.add(playlist);
-                followedPlaylists.remove(playlist);
-            }
-        }
-
-        // Remove the identified playlists from followed playlists
-        followedPlaylists.removeAll(playlistsToRemove);
-    }
-
-
-    /**
      * Gets player stats.
      *
      * @return the player stats
@@ -591,9 +567,10 @@ public class User extends LibraryEntry {
         player.simulatePlayer(time);
     }
 
-    /*
-    * switchStatus
-    * */
+    /**
+     * Switches the status of the user between active and inactive.
+     *
+     */
     public void switchStatus() {
         this.isOnline = !this.isOnline;
         if (!isOnline) {
@@ -637,7 +614,11 @@ public class User extends LibraryEntry {
     @Setter
     @Getter
     private  String currentPageType;
-
+    /**
+     * Gets the current page type of the user.
+     *
+     * @return The current page type.
+     */
     public String getCurrentPageType() {
         return currentPageType;
     }
@@ -674,31 +655,21 @@ public class User extends LibraryEntry {
             case "ArtistPage":
                 Artist artist = (Artist) currPageOwner;
                 ArtistPage artistPage = new ArtistPage(artist);
-                //setCurrentPage(artistPage, );
-                // Populate artistPage with necessary data
                 pageContent = artistPage.displayPage();
                 break;
             case "HomePage":
                 User homepageuser = currPageOwner;
                 HomePage homePage = new HomePage(homepageuser);
-                //setCurrentPage(homePage);
-                // Populate homePage with liked songs and followed playlists
-                // For example: homePage.setLikedSongs(...),
-                // homePage.setFollowedPlaylists(...), etc.
-                user.setFollowedPlaylists(this.followedPlaylists);
                 pageContent = homePage.displayPage();
                 break;
             case "LikedContentPage":
                 User likedcontentusser = currPageOwner;
                 LikedContentPage likedContentPage = new LikedContentPage(likedcontentusser);
-                //setCurrentPage(likedContentPage);
-                user.setFollowedPlaylists(this.followedPlaylists);
                 pageContent = likedContentPage.displayPage();
                 break;
             case "HostPage":
                 Host host = (Host) currPageOwner;
                 HostPage hostPage = new HostPage(host);
-                //setCurrentPage(hostPage);
                 pageContent = hostPage.displayPage();
                 break;
             default:
