@@ -217,6 +217,8 @@ public class User extends LibraryEntry {
         return "Playback loaded successfully.";
     }
 
+
+
     /**
      * Play pause string.
      *
@@ -249,8 +251,7 @@ public class User extends LibraryEntry {
         Enums.RepeatMode repeatMode = player.repeat();
         String repeatStatus = "";
 
-        switch(repeatMode) {
-
+        switch (repeatMode) {
             case NO_REPEAT:
                 repeatStatus = "no repeat";
                 break;
@@ -340,9 +341,11 @@ public class User extends LibraryEntry {
         if (player.getCurrentAudioFile() == null) {
             return "Please load a source before liking or unliking.";
         }
-        if (!player.getType().equals("song") && !player.getType().equals("playlist")) {
+        if (!player.getType().equals("song") && !player.getType().equals("playlist")
+                && !player.getType().equals("album")) {
             return "Loaded source is not a song.";
         }
+
         Song song = (Song) player.getCurrentAudioFile();
 
         if (likedSongs.contains(song)) {
@@ -573,9 +576,6 @@ public class User extends LibraryEntry {
      */
     public void switchStatus() {
         this.isOnline = !this.isOnline;
-        if (!isOnline) {
-            this.player.pause();
-        }
     }
     /**
      * Adds a new user with the specified username, age, city, and user type.
@@ -634,10 +634,6 @@ public class User extends LibraryEntry {
         this.currPageOwner = pageOwner;
     }
 
-
-    public void setFollowedPlaylists(final ArrayList<Playlist> followedPlaylists) {
-        this.followedPlaylists = followedPlaylists;
-    }
     /**
      * Prints the content of the current page based on the user's role.
      *

@@ -43,6 +43,10 @@ public class Player {
         this.paused = true;
     }
 
+    public static Set<AudioCollection> getActiveAlbums() {
+        return activeAlbums;
+    }
+
     /**
      * Stop playback and reset player state.
      */
@@ -116,7 +120,7 @@ public class Player {
             }
         }
         // Handling setting an album source
-        if ("album".equals(type) && entry instanceof Album) {
+        if ("album".equals(type)) {
             Album album = (Album) entry;
             if (!album.getSongs().isEmpty()) {
                 // Set the first song of the album as the current track
@@ -147,14 +151,11 @@ public class Player {
     public void pause() {
         if (isOnline) {
             paused = !paused;
-        } else {
-            paused = false;
         }
     }
 
     /**
      * Shuffle the current playlist or album.
-     *
      * @param seed the seed for shuffling.
      */
     public void shuffle(final Integer seed) {

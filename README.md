@@ -1,3 +1,5 @@
+## the final mark on the manual checker is 80/100 , tests 3 and 9 do not pass in vm checker
+
 # Music Library Management System
 
 This project is a command-line based application that manages a music library system. It allows users to interact with a virtual library, handling commands to search, play, and manage songs and playlists.
@@ -67,6 +69,9 @@ The abstract `Page` class represents a generic page with content. Each page is o
 ### `ArtistPage`
 Extends `Page`. The `ArtistPage` class is specific to `Artist` users and displays content such as albums, merchandise, and events associated with the artist.
 
+### `HostPage`
+Extends `Page`. The `HostPage` class is specific to `Host` users and displays content such as podcasts, merchandise, and Announcements associated with the host.
+
 ### `HomePage`
 Extends `Page`. The `HomePage` class represents the home page for regular users. It displays content like top liked songs and playlists followed by the user.
 
@@ -75,7 +80,7 @@ Extends `Page`. The `LikedContentPage` class shows all the content liked by the 
 
 ## Usage
 
-The system determines which page to render through the `printCurrentPage` method, which takes a `User` object and their role as parameters. Here is how different pages are instantiated and displayed:
+The system determines which page to render through the `printCurrentPage` method, which takes a `User` object and their role as parameters.
 
 # Music Library Management System
 
@@ -149,4 +154,6 @@ sortedEntries.stream()
     .limit(5)
     .forEach(topAlbums::add);
 
-### Schelet used 
+### skelet used 
+used the official Stage I solve as a skeleton.
+

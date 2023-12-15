@@ -2,6 +2,7 @@ package app.user;
 
 import app.Admin;
 import app.audio.Collections.Album;
+import app.audio.Collections.Playlist;
 import app.audio.Files.Song;
 import app.player.Player;
 import app.utils.Enums;
@@ -16,9 +17,12 @@ import java.util.*;
  * Represents an artist user.
  */
 public class Artist extends User {
+
     private final List<Album> albums;
     @Getter
     private  List<Song> songsForNewAlbum;
+
+
     /**
      * Retrieves a list of albums created by the artist.
      *
@@ -135,7 +139,7 @@ public class Artist extends User {
      */
     public String removeAlbum(final String albumName) {
         // Check if the artist has an album with the given name
-        Album albumToRemove = null;
+        Album albumToRemove =  null;
         for (Album album : albums) {
             if (album.getName().equalsIgnoreCase(albumName)) {
                 albumToRemove = album;
@@ -152,15 +156,65 @@ public class Artist extends User {
             return getUsername() + " can't delete this album.";
         }
 
-        // Remove the album
+        // Check if a playlist contains a song from the album
+        if (isAlbumInAnyPlaylist(albumToRemove)) {
+            return getUsername() + " can't delete this album.";
+        }
+
+        // check if the album or song in it are loaded
+        for (Album albums: getAlbums()) {
+            for (Song song : albums.getSongs()) {
+                if (this.getLastSearchedName().equals("song")
+                        || this.getLastSearchedName().equals("album")) {
+                    return getUsername() + " can't delete this album.";
+                }
+            }
+        }
+
         albums.remove(albumToRemove);
-        // Optional: Remove songs from the global song list
         List<Song> adminSongList = Admin.getSongs();
         adminSongList.removeAll(albumToRemove.getSongs());
         Admin.setSongList(adminSongList);
 
         return getUsername() + " deleted the album successfully.";
     }
+
+    /**
+     * Checks if any song from the specified album is included in any playlist.
+     * This method iterates through the playlists associated with the artist and
+     * other users to determine if any song from the album is included.
+     *
+     * Note: This method is not designed to be overridden in subclasses.
+     *
+     * @param album The album to check for its presence in playlists.
+     * @return true if any song from the album is found in any playlist, false otherwise.
+     */
+    public boolean isAlbumInAnyPlaylist(final Album album) {
+        ArrayList<Playlist> playlistList = getPlaylists();
+
+        for (Playlist playlist : playlistList) {
+            // Check if the playlist contains any song from the album
+            for (Song song : playlist.getSongs()) {
+                if (album.getSongs().contains(song)) {
+                    // If any song from the album is found in the playlist, return true
+                    return true;
+                }
+            }
+
+        }
+
+        for (User user: Admin.getNormalUsers()) {
+            if (user.getPlayer().getSource() != null
+                    && user.getPlayer().getSource().getAudioCollection() != null
+                    && user.getPlayer().getSource().getAudioCollection().equals(album)) {
+                return true;
+            }
+        }
+
+        // If no song from the album is found in any playlist, return false
+        return false;
+    }
+
 
     private static List<Event> events = new ArrayList<>();
     /**

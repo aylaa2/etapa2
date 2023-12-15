@@ -1,6 +1,5 @@
 package pagination;
 
-import app.Admin;
 import app.audio.Collections.Album;
 import app.user.Artist;
 import app.utils.Enums;
@@ -22,7 +21,7 @@ public class ArtistPage extends Page {
      */
     public ArtistPage(final Artist owner) {
         super(owner);
-        this.albums = new ArrayList<>();
+        this.albums = owner.getAlbums();
         this.merchandise = new ArrayList<>();
         this.events = new ArrayList<>();
         this.userType = Enums.UserType.ARTIST;
@@ -36,10 +35,15 @@ public class ArtistPage extends Page {
     public String displayPage() {
         StringBuilder sb = new StringBuilder();
         sb.append("Albums:\n\t");
-        List<Album> albums = Admin.getAlbums();
-        if (!albums.isEmpty()) {
-            Album firstAlbum = albums.get(0); // Get the first album
-            sb.append("[").append(firstAlbum.getName()).append("]");
+        List<Album> albumsList = albums;
+
+        if (!albumsList.isEmpty()) {
+            sb.append("[");
+            for (int i = 0; i < albumsList.size() - 1; i++) {
+                sb.append(albumsList.get(i).getName()) .append(", ");
+            }
+            sb.append(albumsList.get(albumsList.size() - 1).getName());
+            sb.append("]");
         } else {
             sb.append("[]");
         }

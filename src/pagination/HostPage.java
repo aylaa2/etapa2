@@ -70,7 +70,7 @@ public class HostPage extends Page {
 
         for (String user : users) {
             if (getOwner().getUsername().equals(user)) {
-                // Now process the announcements for this host
+
                 List<Host.Announcement> announcementList
                         = ((Host) getOwner()).getAnnouncements();
                 if (announcementList != null && !announcementList.isEmpty()) {
@@ -92,20 +92,13 @@ public class HostPage extends Page {
                     sb.append("[]");
                 }
 
-                break; // Break out of the outer loop after processing this host's announcements
+                break;
             }
         }
 
         return sb.toString();
     }
 
-    private String formatList(final List<String> items) {
-        if (items.isEmpty()) {
-            return "[]";
-        } else {
-            return "[" + String.join(", ", items) + "]";
-        }
-    }
 
 }
 

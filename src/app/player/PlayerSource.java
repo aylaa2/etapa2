@@ -25,6 +25,8 @@ public class PlayerSource {
     private int remainedDuration;
     private final List<Integer> indices = new ArrayList<>();
 
+
+
     /**
      * Instantiates a new Player source.
      *

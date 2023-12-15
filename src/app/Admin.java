@@ -229,7 +229,9 @@ public final class Admin {
         }
 
         for (User user : users) {
-            user.simulateTime(elapsed);
+            if (user.isOnline()) {
+                user.simulateTime(elapsed);
+            }
         }
     }
     /**
@@ -311,6 +313,43 @@ public final class Admin {
             count++;
         }
         return topPlaylists;
+    }
+    /**
+     * Retrieves a list of the top 5 artists based on the total number
+     * of likes for all their songs.
+     * This method aggregates the likes of all songs across all albums
+     * for each artist and sorts
+     * the artists based on these totals. It returns the names of
+     * the top 5 artists in terms of likes.
+     *
+     * @return A list of strings representing the names of the top 5 artists with the most likes.
+     */
+    public static List<String> getTop5Artists() {
+        List<Artist> artists = new ArrayList<>();
+        for (User user: users) {
+            if (user instanceof Artist) {
+                artists.add((Artist) user);
+            }
+        }
+
+        Map<Artist, Integer> artistLikes = new HashMap<>();
+
+        // Calculate total likes for each artist
+        for (Artist artist : artists) {
+            int totalLikes = artist.getAlbums().stream()
+                    .flatMap(album -> album.getSongs().stream())
+                    .mapToInt(Song::getLikes)
+                    .sum();
+
+            artistLikes.put(artist, totalLikes);
+        }
+
+        // Sort artists by total likes and get top 5
+        return artistLikes.entrySet().stream()
+                .sorted(Map.Entry.<Artist, Integer>comparingByValue().reversed())
+                .map(entry -> entry.getKey().getName())
+                .limit(LIMIT)
+                .collect(Collectors.toList());
     }
     /**
      * getAllonlineUsers.

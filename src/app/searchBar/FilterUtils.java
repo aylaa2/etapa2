@@ -155,7 +155,15 @@ public final class FilterUtils {
         }
         return result;
     }
-
+    /**
+     * Filters a list of LibraryEntry objects based on a specified description.
+     * This method iterates over a list of LibraryEntry objects and returns a new list
+     * containing only those entries that match the given description.
+     *
+     * @param entries The list of LibraryEntry objects to be filtered.
+     * @param description The description to match against each LibraryEntry object.
+     * @return A list of LibraryEntry objects that match the given description.
+     */
     public static List<LibraryEntry> filterByDescription(final List<LibraryEntry> entries,
                                                          final String description) {
         return filter(entries, entry -> entry.matchesDescription(description));

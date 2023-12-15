@@ -484,9 +484,6 @@ public final class CommandRunner {
         }
 
         PlayerStats stats = user.getPlayerStats();
-        if (!user.isOnline()) {
-            stats.setPaused(false);
-        }
         objectNode.put("user", commandInput.getUsername());
         objectNode.put("stats", objectMapper.valueToTree(stats));
         return objectNode;
@@ -1144,6 +1141,25 @@ public final class CommandRunner {
 
         String results = ((Artist) user).removeEvent(commandInput.getName());
         objectNode.put("message", results);
+
+        return objectNode;
+    }
+    /**
+     * Retrieves the top 5 artists based on the sum of likes for all songs in all their albums.
+     * This method fetches the list of top artists from the Admin class and constructs an ObjectNode
+     * with the command, timestamp, and the result containing the list of top artists.
+     *
+     * @param commandInput The input command containing details like the command name and timestamp.
+     * @return An ObjectNode containing the command information and the list of top 5 artists.
+     */
+    public static ObjectNode getTop5Artists(final CommandInput commandInput) {
+        List<String> songs = Admin.getTop5Artists();
+
+        ObjectNode objectNode = objectMapper.createObjectNode();
+        objectNode.put("command", commandInput.getCommand());
+        objectNode.put("timestamp", commandInput.getTimestamp());
+        objectNode.put("result", objectMapper.valueToTree(songs));
+
 
         return objectNode;
     }

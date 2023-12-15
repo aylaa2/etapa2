@@ -10,6 +10,7 @@ import java.util.List;
 
 import static app.searchBar.FilterUtils.*;
 
+
 /**
  * A SearchBar class for performing searches and managing search results.
  */
