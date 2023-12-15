@@ -1,8 +1,6 @@
 package app.audio.Files;
 
-import app.utils.Enums;
 import lombok.Getter;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,9 +14,21 @@ public final class Song extends AudioFile {
     private final String artist;
     private Integer likes;
 
-
-    public Song(String name, Integer duration, String album, ArrayList<String> tags, String lyrics,
-                String genre, Integer releaseYear, String artist) {
+    /**
+     * Constructor for Song.
+     *
+     * @param name        The name of the song.
+     * @param duration    The duration of the song.
+     * @param album       The album of the song.
+     * @param tags        The tags associated with the song.
+     * @param lyrics      The lyrics of the song.
+     * @param genre       The genre of the song.
+     * @param releaseYear The release year of the song.
+     * @param artist      The artist of the song.
+     */
+    public Song(final String name, final Integer duration, final String album,
+                final ArrayList<String> tags, final String lyrics, final String genre,
+                final Integer releaseYear, final String artist) {
         super(name, duration);
         this.album = album;
         this.tags = tags;
@@ -30,45 +40,46 @@ public final class Song extends AudioFile {
     }
 
     @Override
-    public boolean matchesAlbum(String album) {
-        return this.album != null && this.album.equalsIgnoreCase(album);
+    public boolean matchesAlbum(final String albumName) {
+        return this.album != null && this.album.equalsIgnoreCase(albumName);
     }
 
     @Override
-    public boolean matchesTags(ArrayList<String> tags) {
-        List<String> songTags = new ArrayList<>();
+    public boolean matchesTags(final ArrayList<String> songTags) {
+        List<String> lowerCaseSongTags = new ArrayList<>();
         for (String tag : this.getTags()) {
-            songTags.add(tag.toLowerCase());
+            lowerCaseSongTags.add(tag.toLowerCase());
         }
 
-        for (String tag : tags) {
-            if (!songTags.contains(tag.toLowerCase())) {
+        for (String tag : songTags) {
+            if (!lowerCaseSongTags.contains(tag.toLowerCase())) {
                 return false;
             }
         }
         return true;
     }
+
     @Override
-    public boolean matchesLyrics(String lyrics) {
-        return this.getLyrics().toLowerCase().contains(lyrics.toLowerCase());
+    public boolean matchesLyrics(final String lyricsText) {
+        return this.getLyrics().toLowerCase().contains(lyricsText.toLowerCase());
     }
 
     @Override
-    public boolean matchesGenre(String genre) {
-        return this.getGenre().equalsIgnoreCase(genre);
+    public boolean matchesGenre(final String genreName) {
+        return this.getGenre().equalsIgnoreCase(genreName);
     }
 
     @Override
-    public boolean matchesArtist(String artist) {
-        return this.getArtist().equalsIgnoreCase(artist);
+    public boolean matchesArtist(final String artistName) {
+        return this.getArtist().equalsIgnoreCase(artistName);
     }
 
     @Override
-    public boolean matchesReleaseYear(String releaseYear) {
-        return filterByYear(this.getReleaseYear(), releaseYear);
+    public boolean matchesReleaseYear(final String year) {
+        return filterByYear(this.getReleaseYear(), year);
     }
 
-    private static boolean filterByYear(int year, String query) {
+    private static boolean filterByYear(final int year, final String query) {
         if (query.startsWith("<")) {
             return year < Integer.parseInt(query.substring(1));
         } else if (query.startsWith(">")) {
@@ -78,11 +89,25 @@ public final class Song extends AudioFile {
         }
     }
 
+    /**
+     * Set the number of likes for the song.
+     *
+     * @param numberOfLikes The number of likes to set.
+     */
+    public void setLikes(final Integer numberOfLikes) {
+        this.likes = numberOfLikes;
+    }
 
+    /**
+     * Increment the number of likes for the song.
+     */
     public void like() {
         likes++;
     }
 
+    /**
+     * Decrement the number of likes for the song.
+     */
     public void dislike() {
         likes--;
     }

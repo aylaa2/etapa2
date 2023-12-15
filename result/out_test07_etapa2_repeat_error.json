@@ -329,7 +329,7 @@
   "user" : "rhythmicrider58",
   "message" : "Like registered successfully."
 }, {
-  "message" : "Liked songs:\n\t[Shape of You]\n\nFollowed playlists:\n\t[My favourite songs]",
+  "message" : "Liked songs:\n\t[Shape of You]\n\nFollowed playlists:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "rhythmicrider58",
   "timestamp" : 7000

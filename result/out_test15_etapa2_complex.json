@@ -4923,7 +4923,7 @@
   "command" : "shuffle",
   "timestamp" : 5429,
   "user" : "alice22",
-  "message" : "The loaded source is not a playlist or an album."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "jacobdean",
@@ -4937,30 +4937,30 @@
     "name" : "Serendipity Serendipity",
     "remainedTime" : 254,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
   "command" : "next",
   "timestamp" : 5435,
   "user" : "alice22",
-  "message" : "Skipped to next track successfully. The current track is Melody Sunset."
+  "message" : "Please load a source before skipping to the next track."
 }, {
   "command" : "status",
   "timestamp" : 5689,
   "user" : "alice22",
   "stats" : {
-    "name" : "Rapture Odyssey",
-    "remainedTime" : 144,
+    "name" : "",
+    "remainedTime" : 0,
     "repeat" : "No Repeat",
     "shuffle" : false,
-    "paused" : false
+    "paused" : true
   }
 }, {
   "command" : "like",
   "timestamp" : 5690,
   "user" : "alice22",
-  "message" : "Loaded source is not a song."
+  "message" : "Please load a source before liking or unliking."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -5022,7 +5022,7 @@
   "command" : "shuffle",
   "timestamp" : 5740,
   "user" : "bob35",
-  "message" : "The loaded source is not a playlist or an album."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "leslie27",
@@ -5036,23 +5036,23 @@
     "name" : "Whisper Pulse",
     "remainedTime" : 269,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
   "command" : "next",
   "timestamp" : 5746,
   "user" : "bob35",
-  "message" : "Skipped to next track successfully. The current track is Radiance Euphoria."
+  "message" : "Skipped to next track successfully. The current track is Euphoria Luminescence."
 }, {
   "command" : "status",
   "timestamp" : 6000,
   "user" : "bob35",
   "stats" : {
-    "name" : "Odyssey Rapture",
-    "remainedTime" : 188,
+    "name" : "Dance Harmonize",
+    "remainedTime" : 173,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5126,7 +5126,7 @@
   "command" : "shuffle",
   "timestamp" : 6051,
   "user" : "carol19",
-  "message" : "The loaded source is not a playlist or an album."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "cbutler",
@@ -5140,23 +5140,23 @@
     "name" : "Heart Bliss",
     "remainedTime" : 172,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
   "command" : "next",
   "timestamp" : 6057,
   "user" : "carol19",
-  "message" : "Skipped to next track successfully. The current track is Pinnacle Euphoria."
+  "message" : "Skipped to next track successfully. The current track is Essence Voyage."
 }, {
   "command" : "status",
   "timestamp" : 6311,
   "user" : "carol19",
   "stats" : {
-    "name" : "Whirlwind Solitude",
-    "remainedTime" : 194,
+    "name" : "Whirlwind Serenade",
+    "remainedTime" : 218,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5423,7 +5423,7 @@
   "command" : "shuffle",
   "timestamp" : 6984,
   "user" : "frank21",
-  "message" : "The loaded source is not a playlist or an album."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "amanda16",
@@ -5437,7 +5437,7 @@
     "name" : "Luminescence Crescendo",
     "remainedTime" : 239,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5450,10 +5450,10 @@
   "timestamp" : 7244,
   "user" : "frank21",
   "stats" : {
-    "name" : "Echo Pinnacle",
-    "remainedTime" : 256,
+    "name" : "Colors Rapture",
+    "remainedTime" : 271,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5522,7 +5522,7 @@
   "command" : "shuffle",
   "timestamp" : 7295,
   "user" : "grace25",
-  "message" : "The loaded source is not a playlist or an album."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "barmstrong",
@@ -5536,7 +5536,7 @@
     "name" : "Love Love",
     "remainedTime" : 246,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5552,7 +5552,7 @@
     "name" : "Soul Love",
     "remainedTime" : 36,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -5720,7 +5720,7 @@
   "command" : "shuffle",
   "timestamp" : 7917,
   "user" : "irene33",
-  "message" : "The loaded source is not a playlist or an album."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "removeAlbum",
   "user" : "jacobdean",
@@ -5734,7 +5734,7 @@
     "name" : "Celestial Soul",
     "remainedTime" : 228,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : true
   }
 }, {
@@ -5750,7 +5750,7 @@
     "name" : "Utopia Harmony",
     "remainedTime" : 44,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -18047,7 +18047,7 @@
   "timestamp" : 11769,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11769
@@ -18057,7 +18057,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11769
@@ -18083,7 +18083,7 @@
   "timestamp" : 11779,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11779
@@ -18093,7 +18093,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11779
@@ -18119,7 +18119,7 @@
   "timestamp" : 11789,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11789
@@ -18129,7 +18129,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11789
@@ -18155,7 +18155,7 @@
   "timestamp" : 11799,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11799
@@ -18165,7 +18165,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11799
@@ -18263,7 +18263,7 @@
   "timestamp" : 11829,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11829
@@ -18273,7 +18273,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11829
@@ -18299,7 +18299,7 @@
   "timestamp" : 11839,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11839
@@ -18309,7 +18309,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11839
@@ -18335,7 +18335,7 @@
   "timestamp" : 11849,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11849
@@ -18345,7 +18345,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 11849
@@ -18371,7 +18371,7 @@
   "timestamp" : 11859,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11859
@@ -18381,7 +18381,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11859
@@ -18443,7 +18443,7 @@
   "timestamp" : 11879,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11879
@@ -18453,7 +18453,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11879
@@ -18479,7 +18479,7 @@
   "timestamp" : 11889,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11889
@@ -18489,7 +18489,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11889
@@ -18515,7 +18515,7 @@
   "timestamp" : 11899,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11899
@@ -18525,7 +18525,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11899
@@ -18551,7 +18551,7 @@
   "timestamp" : 11909,
   "message" : "Successfully selected leslie27's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11909
@@ -18561,7 +18561,7 @@
   "user" : "leslie27",
   "message" : "leslie27 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 11909
@@ -18587,7 +18587,7 @@
   "timestamp" : 11919,
   "message" : "Successfully selected leslie27's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11919
@@ -18597,7 +18597,7 @@
   "user" : "leslie27",
   "message" : "leslie27 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 11919
@@ -18623,7 +18623,7 @@
   "timestamp" : 11929,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11929
@@ -18633,7 +18633,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 11929
@@ -18659,7 +18659,7 @@
   "timestamp" : 11939,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11939
@@ -18669,7 +18669,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 11939
@@ -18731,7 +18731,7 @@
   "timestamp" : 11959,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11959
@@ -18741,7 +18741,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 11959
@@ -18767,7 +18767,7 @@
   "timestamp" : 11969,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11969
@@ -18777,7 +18777,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 11969
@@ -18803,7 +18803,7 @@
   "timestamp" : 11979,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11979
@@ -18813,7 +18813,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 11979
@@ -18839,7 +18839,7 @@
   "timestamp" : 11989,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11989
@@ -18849,7 +18849,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 11989
@@ -18875,7 +18875,7 @@
   "timestamp" : 11999,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11999
@@ -18885,7 +18885,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 11999
@@ -18911,7 +18911,7 @@
   "timestamp" : 12009,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12009
@@ -18921,7 +18921,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12009
@@ -18947,7 +18947,7 @@
   "timestamp" : 12019,
   "message" : "Successfully selected leslie27's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12019
@@ -18957,7 +18957,7 @@
   "user" : "leslie27",
   "message" : "leslie27 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12019
@@ -18983,7 +18983,7 @@
   "timestamp" : 12029,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12029
@@ -18993,7 +18993,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12029
@@ -19055,7 +19055,7 @@
   "timestamp" : 12049,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12049
@@ -19065,7 +19065,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12049
@@ -19091,7 +19091,7 @@
   "timestamp" : 12059,
   "message" : "Successfully selected leslie27's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12059
@@ -19101,7 +19101,7 @@
   "user" : "leslie27",
   "message" : "leslie27 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12059
@@ -19127,7 +19127,7 @@
   "timestamp" : 12069,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12069
@@ -19137,7 +19137,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12069
@@ -19235,7 +19235,7 @@
   "timestamp" : 12099,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12099
@@ -19245,7 +19245,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12099
@@ -19271,7 +19271,7 @@
   "timestamp" : 12109,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12109
@@ -19281,7 +19281,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12109
@@ -19343,7 +19343,7 @@
   "timestamp" : 12129,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12129
@@ -19353,7 +19353,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12129
@@ -19415,7 +19415,7 @@
   "timestamp" : 12149,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12149
@@ -19425,7 +19425,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12149
@@ -19487,7 +19487,7 @@
   "timestamp" : 12169,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12169
@@ -19497,7 +19497,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12169
@@ -19523,7 +19523,7 @@
   "timestamp" : 12179,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12179
@@ -19533,7 +19533,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12179
@@ -19559,7 +19559,7 @@
   "timestamp" : 12189,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12189
@@ -19569,7 +19569,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12189
@@ -19595,7 +19595,7 @@
   "timestamp" : 12199,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12199
@@ -19605,7 +19605,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12199
@@ -19631,7 +19631,7 @@
   "timestamp" : 12209,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12209
@@ -19641,7 +19641,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12209
@@ -19667,7 +19667,7 @@
   "timestamp" : 12219,
   "message" : "Successfully selected leslie27's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12219
@@ -19677,7 +19677,7 @@
   "user" : "leslie27",
   "message" : "leslie27 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12219
@@ -19703,7 +19703,7 @@
   "timestamp" : 12229,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12229
@@ -19713,7 +19713,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12229
@@ -19739,7 +19739,7 @@
   "timestamp" : 12239,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12239
@@ -19749,7 +19749,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12239
@@ -19775,7 +19775,7 @@
   "timestamp" : 12249,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12249
@@ -19785,7 +19785,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12249
@@ -19847,7 +19847,7 @@
   "timestamp" : 12269,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12269
@@ -19857,7 +19857,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has the same song at least twice in this album."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12269
@@ -19883,7 +19883,7 @@
   "timestamp" : 12279,
   "message" : "Successfully selected leslie27's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12279
@@ -19893,7 +19893,7 @@
   "user" : "leslie27",
   "message" : "leslie27 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12279
@@ -19991,7 +19991,7 @@
   "timestamp" : 12309,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12309
@@ -20001,7 +20001,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12309
@@ -20063,7 +20063,7 @@
   "timestamp" : 12329,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12329
@@ -20073,7 +20073,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12329
@@ -20135,7 +20135,7 @@
   "timestamp" : 12349,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12349
@@ -20145,7 +20145,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12349
@@ -20171,7 +20171,7 @@
   "timestamp" : 12359,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12359
@@ -20181,7 +20181,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12359
@@ -20207,7 +20207,7 @@
   "timestamp" : 12369,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12369
@@ -20217,7 +20217,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12369
@@ -20279,7 +20279,7 @@
   "timestamp" : 12389,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12389
@@ -20289,7 +20289,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12389
@@ -20315,7 +20315,7 @@
   "timestamp" : 12399,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12399
@@ -20325,7 +20325,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12399
@@ -20351,7 +20351,7 @@
   "timestamp" : 12409,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12409
@@ -20361,7 +20361,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12409
@@ -20423,7 +20423,7 @@
   "timestamp" : 12429,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12429
@@ -20433,7 +20433,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12429
@@ -20459,7 +20459,7 @@
   "timestamp" : 12439,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12439
@@ -20469,7 +20469,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12439
@@ -20531,7 +20531,7 @@
   "timestamp" : 12459,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12459
@@ -20541,7 +20541,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12459
@@ -20603,7 +20603,7 @@
   "timestamp" : 12479,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12479
@@ -20613,7 +20613,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12479
@@ -20639,7 +20639,7 @@
   "timestamp" : 12489,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12489
@@ -20649,7 +20649,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12489
@@ -20747,7 +20747,7 @@
   "timestamp" : 12519,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12519
@@ -20757,7 +20757,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12519
@@ -20783,7 +20783,7 @@
   "timestamp" : 12529,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12529
@@ -20793,7 +20793,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12529
@@ -20927,7 +20927,7 @@
   "timestamp" : 12569,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12569
@@ -20937,7 +20937,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12569
@@ -20963,7 +20963,7 @@
   "timestamp" : 12579,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12579
@@ -20973,7 +20973,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12579
@@ -20999,7 +20999,7 @@
   "timestamp" : 12589,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12589
@@ -21009,7 +21009,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12589
@@ -21035,7 +21035,7 @@
   "timestamp" : 12599,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12599
@@ -21045,7 +21045,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12599
@@ -21071,7 +21071,7 @@
   "timestamp" : 12609,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12609
@@ -21081,7 +21081,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12609
@@ -21107,7 +21107,7 @@
   "timestamp" : 12619,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12619
@@ -21117,7 +21117,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12619
@@ -21143,7 +21143,7 @@
   "timestamp" : 12629,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12629
@@ -21153,7 +21153,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12629
@@ -21215,7 +21215,7 @@
   "timestamp" : 12649,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12649
@@ -21225,7 +21225,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12649
@@ -21287,7 +21287,7 @@
   "timestamp" : 12669,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12669
@@ -21297,7 +21297,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 12669
@@ -21323,7 +21323,7 @@
   "timestamp" : 12679,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12679
@@ -21333,7 +21333,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12679
@@ -21359,7 +21359,7 @@
   "timestamp" : 12689,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12689
@@ -21369,7 +21369,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12689
@@ -21395,7 +21395,7 @@
   "timestamp" : 12699,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12699
@@ -21405,7 +21405,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12699
@@ -21431,7 +21431,7 @@
   "timestamp" : 12709,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12709
@@ -21441,7 +21441,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12709
@@ -21467,7 +21467,7 @@
   "timestamp" : 12719,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12719
@@ -21477,7 +21477,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12719
@@ -21539,7 +21539,7 @@
   "timestamp" : 12739,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12739
@@ -21549,7 +21549,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12739
@@ -21575,7 +21575,7 @@
   "timestamp" : 12749,
   "message" : "Successfully selected leslie27's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12749
@@ -21585,7 +21585,7 @@
   "user" : "leslie27",
   "message" : "leslie27 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12749
@@ -21611,7 +21611,7 @@
   "timestamp" : 12759,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12759
@@ -21621,7 +21621,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12759
@@ -21683,7 +21683,7 @@
   "timestamp" : 12779,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12779
@@ -21693,7 +21693,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12779
@@ -21719,7 +21719,7 @@
   "timestamp" : 12789,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12789
@@ -21729,7 +21729,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12789
@@ -21755,7 +21755,7 @@
   "timestamp" : 12799,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12799
@@ -21765,7 +21765,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12799
@@ -21791,7 +21791,7 @@
   "timestamp" : 12809,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12809
@@ -21801,7 +21801,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12809
@@ -21827,7 +21827,7 @@
   "timestamp" : 12819,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12819
@@ -21837,7 +21837,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12819
@@ -21863,7 +21863,7 @@
   "timestamp" : 12829,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12829
@@ -21873,7 +21873,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12829
@@ -21899,7 +21899,7 @@
   "timestamp" : 12839,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12839
@@ -21909,7 +21909,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12839
@@ -21935,7 +21935,7 @@
   "timestamp" : 12849,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12849
@@ -21945,7 +21945,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12849
@@ -21971,7 +21971,7 @@
   "timestamp" : 12859,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12859
@@ -21981,7 +21981,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12859
@@ -22043,7 +22043,7 @@
   "timestamp" : 12879,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12879
@@ -22053,7 +22053,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12879
@@ -22079,7 +22079,7 @@
   "timestamp" : 12889,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12889
@@ -22089,7 +22089,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12889
@@ -22115,7 +22115,7 @@
   "timestamp" : 12899,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12899
@@ -22125,7 +22125,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 12899
@@ -22151,7 +22151,7 @@
   "timestamp" : 12909,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12909
@@ -22161,7 +22161,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 12909
@@ -22187,7 +22187,7 @@
   "timestamp" : 12919,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12919
@@ -22197,7 +22197,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 12919
@@ -22223,7 +22223,7 @@
   "timestamp" : 12929,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12929
@@ -22233,7 +22233,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 12929
@@ -22259,7 +22259,7 @@
   "timestamp" : 12939,
   "message" : "Successfully selected leslie27's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12939
@@ -22269,7 +22269,7 @@
   "user" : "leslie27",
   "message" : "leslie27 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 12939
@@ -22295,7 +22295,7 @@
   "timestamp" : 12949,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12949
@@ -22305,7 +22305,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 12949
@@ -22331,7 +22331,7 @@
   "timestamp" : 12959,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12959
@@ -22341,7 +22341,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 12959
@@ -22403,7 +22403,7 @@
   "timestamp" : 12979,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12979
@@ -22413,7 +22413,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 12979
@@ -22439,7 +22439,7 @@
   "timestamp" : 12989,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12989
@@ -22449,7 +22449,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 12989
@@ -22547,7 +22547,7 @@
   "timestamp" : 13019,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13019
@@ -22557,7 +22557,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13019
@@ -22583,7 +22583,7 @@
   "timestamp" : 13029,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13029
@@ -22593,7 +22593,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13029
@@ -22619,7 +22619,7 @@
   "timestamp" : 13039,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13039
@@ -22629,7 +22629,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13039
@@ -22655,7 +22655,7 @@
   "timestamp" : 13049,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13049
@@ -22665,7 +22665,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13049
@@ -22691,7 +22691,7 @@
   "timestamp" : 13059,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13059
@@ -22701,7 +22701,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13059
@@ -22763,7 +22763,7 @@
   "timestamp" : 13079,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13079
@@ -22773,7 +22773,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13079
@@ -22799,7 +22799,7 @@
   "timestamp" : 13089,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13089
@@ -22809,7 +22809,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13089
@@ -22835,7 +22835,7 @@
   "timestamp" : 13099,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13099
@@ -22845,7 +22845,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13099
@@ -22871,7 +22871,7 @@
   "timestamp" : 13109,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13109
@@ -22881,7 +22881,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13109
@@ -22979,7 +22979,7 @@
   "timestamp" : 13139,
   "message" : "Successfully selected leslie27's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13139
@@ -22989,7 +22989,7 @@
   "user" : "leslie27",
   "message" : "leslie27 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13139
@@ -23015,7 +23015,7 @@
   "timestamp" : 13149,
   "message" : "Successfully selected amanda16's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13149
@@ -23025,7 +23025,7 @@
   "user" : "amanda16",
   "message" : "amanda16 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13149
@@ -23051,7 +23051,7 @@
   "timestamp" : 13159,
   "message" : "Successfully selected leslie27's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13159
@@ -23061,7 +23061,7 @@
   "user" : "leslie27",
   "message" : "leslie27 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13159
@@ -23087,7 +23087,7 @@
   "timestamp" : 13169,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 13169
@@ -23097,7 +23097,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "alice22",
   "timestamp" : 13169
@@ -23123,7 +23123,7 @@
   "timestamp" : 13179,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13179
@@ -23133,7 +23133,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "bob35",
   "timestamp" : 13179
@@ -23159,7 +23159,7 @@
   "timestamp" : 13189,
   "message" : "Successfully selected leslie27's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13189
@@ -23169,7 +23169,7 @@
   "user" : "leslie27",
   "message" : "leslie27 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "carol19",
   "timestamp" : 13189
@@ -23195,7 +23195,7 @@
   "timestamp" : 13199,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13199
@@ -23205,7 +23205,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 13199
@@ -23231,7 +23231,7 @@
   "timestamp" : 13209,
   "message" : "Successfully selected leslie27's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13209
@@ -23241,7 +23241,7 @@
   "user" : "leslie27",
   "message" : "leslie27 has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "emily30",
   "timestamp" : 13209
@@ -23267,7 +23267,7 @@
   "timestamp" : 13219,
   "message" : "Successfully selected jacobdean's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13219
@@ -23277,7 +23277,7 @@
   "user" : "jacobdean",
   "message" : "jacobdean has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "frank21",
   "timestamp" : 13219
@@ -23303,7 +23303,7 @@
   "timestamp" : 13229,
   "message" : "Successfully selected barmstrong's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13229
@@ -23313,7 +23313,7 @@
   "user" : "barmstrong",
   "message" : "barmstrong has another album with the same name."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "grace25",
   "timestamp" : 13229
@@ -23339,7 +23339,7 @@
   "timestamp" : 13239,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13239
@@ -23349,7 +23349,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "henry26",
   "timestamp" : 13239
@@ -23375,7 +23375,7 @@
   "timestamp" : 13249,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13249
@@ -23385,7 +23385,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "irene33",
   "timestamp" : 13249
@@ -23411,7 +23411,7 @@
   "timestamp" : 13259,
   "message" : "Successfully selected matthewfernandez's page."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13259
@@ -23421,7 +23421,7 @@
   "user" : "matthewfernandez",
   "message" : "matthewfernandez has added new album successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[]",
   "command" : "printCurrentPage",
   "user" : "jack29",
   "timestamp" : 13259
@@ -26050,5 +26050,5 @@
 }, {
   "command" : "getTop5Albums",
   "timestamp" : 14849,
-  "result" : [ "Harmonic Horizons", "Echoes of Harmony", "Harmonic Horizons", "Rhythmic Resonance", "Beat Odyssey" ]
+  "result" : [ "Alone Dirt", "Alone Funeral ", "Alone Hood", "Alone View", "Bad Autumn" ]
 } ]

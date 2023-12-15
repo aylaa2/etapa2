@@ -1,6 +1,5 @@
-package Pagination;
+package pagination;
 
-import Pagination.Page;
 import app.audio.Collections.Playlist;
 import app.audio.Files.Song;
 import app.user.User;
@@ -14,19 +13,23 @@ public class HomePage extends Page {
     private List<Song> topLikedSongs; // Top 5 liked songs
     private List<Playlist> topPlaylists; // Top 5 playlists with most likes
     private Enums.UserType userType;
-    private  User user;
-    public HomePage(String owner, User user) {
+
+    public HomePage(final User owner) {
         super(owner);
         this.topLikedSongs = new ArrayList<>();
         this.topPlaylists = new ArrayList<>();
         this.userType = Enums.UserType.USER;
-        this.user = user;
     }
 
+    /**
+     * Generates the content to be displayed on the user's home page.
+     *
+     * @return A string representing the content of the home page.
+     */
     @Override
     public String displayPage() {
         StringBuilder sb = new StringBuilder();
-        List<String> userLikedSongs = user.getLikedSongs().stream()
+        List<String> userLikedSongs = getOwner().getLikedSongs().stream()
                 .map(Song::getName)
                 .collect(Collectors.toList());
 
@@ -34,30 +37,23 @@ public class HomePage extends Page {
         sb.append(formatList(userLikedSongs));
         sb.append("\n\nFollowed playlists:\n\t");
 
-        List<String> formattedPlaylists = user.getFollowedPlaylists().stream()
-                .map(p -> p.getName()) // Assuming p.getName() gives the playlist's name
+        List<String> formattedPlaylists = getOwner()
+                .getFollowedPlaylists().stream()
+                .map(p -> p.getName())
                 .collect(Collectors.toList());
-        sb.append(formatList(formattedPlaylists));
+        if (formattedPlaylists.isEmpty()) {
+            sb.append("[]");
+        } else {
+            sb.append(formatList(formattedPlaylists));
+        }
         return sb.toString();
     }
-    private String formatList(List<String> items) {
+
+    private String formatList(final List<String> items) {
         if (items.isEmpty()) {
             return "[]";
         } else {
             return "[" + String.join(", ", items) + "]";
         }
-    }
-    private String formatSongList(List<Song> songs) {
-        // Format each song name in the list
-        return "[" + songs.stream()
-                .map(Song::getName)
-                .collect(Collectors.joining(", ")) + "]";
-    }
-
-    private String formatPlaylistList(List<Playlist> playlists) {
-        // Format each playlist as 'playlistName - ownerName'
-        return "[" + playlists.stream()
-                .map(p -> p.getName() + " - " + p.getOwner())
-                .collect(Collectors.joining(", ")) + "]";
     }
 }

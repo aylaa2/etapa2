@@ -1,10 +1,9 @@
 package app.user;
 
-import Pagination.*;
+import pagination.*;
 import app.Admin;
 import app.audio.Collections.*;
 import app.audio.Files.AudioFile;
-import app.audio.Files.Episode;
 import app.audio.Files.Song;
 import app.audio.LibraryEntry;
 import app.player.Player;
@@ -16,11 +15,12 @@ import app.utils.Enums;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
+/**
+ * The type User.
+ */
 public class User extends LibraryEntry {
     @Getter
     private String username;
@@ -38,30 +38,64 @@ public class User extends LibraryEntry {
     private final Player player;
     public final SearchBar searchBar;
     private boolean lastSearched;
+    private String lastSearchedName;
     @Getter
     protected Enums.UserType userType;
+    @Getter
+    private Page currentPage;
+    @Getter
+    private User currPageOwner;
     private boolean isOnline;
-    private Page CurrentPage;
-    public void deletefollowedplaylist(){
-        followedPlaylists.clear();
-    }
-    public boolean hasAudioCollection(AudioCollection collection) {
-        return collection.matchesOwner(this.getUsername());
-    }
-    public boolean hasAudioFile(AudioFile collection) {
-        return collection.matchesOwner(this.getUsername());
-    }
+
+
+    /**
+     * Gets the user type.
+     *
+     * @return The user type.
+     */
     public Enums.UserType getUserType() {
         return userType;
     }
-
+    /**
+     * Sets the last searched name.
+     *
+     */
+    public String getLastSearchedName() {
+        return lastSearchedName;
+    }
+    /**
+     * Sets the last searched name.
+     *
+     * @param lastSearchedName The last searched name to set (final).
+     */
+    public void setLastSearchedName(final String lastSearchedName) {
+        this.lastSearchedName = lastSearchedName;
+    }
+    /**
+     * Checks if the user is currently online.
+     *
+     * @return True if the user is online, false otherwise.
+     */
     public boolean isOnline() {
         return isOnline;
     }
-    public void setUserType(Enums.UserType userType) {
+    /**
+     * Sets the user's type.
+     *
+     * @param userType The user's type to set (final).
+     */
+    public void setUserType(final Enums.UserType userType) {
         this.userType = userType;
     }
-    public User(String username, int age, String city) {
+
+    /**
+     * Instantiates a new User.
+     *
+     * @param username the username
+     * @param age      the age
+     * @param city     the city
+     */
+    public User(final String username, final int age, final String city) {
         super(username);
         this.username = username;
         this.age = age;
@@ -74,18 +108,30 @@ public class User extends LibraryEntry {
         player = new Player();
         searchBar = new SearchBar(username);
         lastSearched = false;
-        this.setCurrentPageType("HomePage");
+        lastSearchedName = "";
+        this.setCurrentPageType("HomePage", this);
     }
-
+    /**
+     * Checks if the user's name matches the provided name.
+     *
+     * @param name The name to compare.
+     * @return True if the names match, false otherwise.
+     */
     @Override
-    public boolean matchesName(String name) {
+    public boolean matchesName(final String name) {
         return this.username.toLowerCase().startsWith(name);
     }
-    public ArrayList<String> search(Filters filters, String type) {
 
+    /**
+     * Search array list.
+     *
+     * @param filters the filters
+     * @param type    the type
+     * @return the array list
+     */
+    public ArrayList<String> search(final Filters filters, final String type) {
         searchBar.clearSelection();
         player.stop();
-
         lastSearched = true;
         ArrayList<String> results = new ArrayList<>();
         List<LibraryEntry> libraryEntries = searchBar.search(filters, type);
@@ -96,6 +142,12 @@ public class User extends LibraryEntry {
         return results;
     }
 
+    /**
+     * Select string.
+     *
+     * @param itemNumber the item number
+     * @return the string
+     */
     public String select(final int itemNumber) {
         if (!lastSearched) {
             return "Please conduct a search before making a selection.";
@@ -111,12 +163,14 @@ public class User extends LibraryEntry {
 
         String lastSearchType = searchBar.getLastSearchType();
 
+        User owner = Admin.getUser(selected.getName());
         if (lastSearchType != null) {
             if ("host".equals(lastSearchType)) {
-                setCurrentPageType("HostPage");
+                setCurrentPageType("HostPage", owner);
+                //setCurrentPage(HostPage);
                 return "Successfully selected %s's page.".formatted(selected.getName());
             } else if ("artist".equals(lastSearchType)) {
-                setCurrentPageType("ArtistPage");
+                setCurrentPageType("ArtistPage", owner);
                 return "Successfully selected %s's page.".formatted(selected.getName());
             }
         }
@@ -128,7 +182,12 @@ public class User extends LibraryEntry {
         return "Successfully selected %s.".formatted(selected.getName());
     }
 
-    //player.getType().equals("playlist")
+
+    /**
+     * Load string.
+     *
+     * @return the string
+     */
     public String load() {
         if (searchBar.getLastSelected() == null) {
             return "Please select a source before attempting to load.";
@@ -137,6 +196,13 @@ public class User extends LibraryEntry {
         if (!searchBar.getLastSearchType().equals("song")
                 && ((AudioCollection) searchBar.getLastSelected()).getNumberOfTracks() == 0) {
             return "You can't load an empty audio collection!";
+        }
+
+        if (searchBar.getLastSearchType().equals("album")) {
+            AudioCollection selectedAlbum = (AudioCollection) searchBar.getLastSelected();
+            if (selectedAlbum.getNumberOfTracks() == 0) {
+                return "You can't load an empty album!";
+            }
         }
 
         player.setSource(searchBar.getLastSelected(), searchBar.getLastSearchType());
@@ -148,83 +214,132 @@ public class User extends LibraryEntry {
         return "Playback loaded successfully.";
     }
 
-
-
+    /**
+     * Play pause string.
+     *
+     * @return the string
+     */
     public String playPause() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before attempting to pause or resume playback.";
-
+        }
         player.pause();
 
-        if (player.getPaused())
+        if (player.getPaused()) {
             return "Playback paused successfully.";
-        else
+        } else {
             return "Playback resumed successfully.";
+        }
     }
 
+
+    /**
+     * Repeat string.
+     *
+     * @return the string
+     */
     public String repeat() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before setting the repeat status.";
+        }
 
         Enums.RepeatMode repeatMode = player.repeat();
         String repeatStatus = "";
 
         switch(repeatMode) {
-            case NO_REPEAT -> repeatStatus = "no repeat";
-            case REPEAT_ONCE -> repeatStatus = "repeat once";
-            case REPEAT_ALL -> repeatStatus = "repeat all";
-            case REPEAT_INFINITE -> repeatStatus = "repeat infinite";
-            case REPEAT_CURRENT_SONG -> repeatStatus = "repeat current song";
+
+            case NO_REPEAT:
+                repeatStatus = "no repeat";
+                break;
+            case REPEAT_ONCE:
+                repeatStatus = "repeat once";
+                break;
+            case REPEAT_ALL:
+                repeatStatus = "repeat all";
+                break;
+            case REPEAT_INFINITE:
+                repeatStatus = "repeat infinite";
+                break;
+            case REPEAT_CURRENT_SONG:
+                repeatStatus = "repeat current song";
+                break;
+            default:
+                break;
         }
 
         return "Repeat mode changed to %s.".formatted(repeatStatus);
+
     }
 
-    public String shuffle(Integer seed) {
-        if (player.getCurrentAudioFile() == null)
+    /**
+     * Shuffle string.
+     *
+     * @param seed the seed
+     * @return the string
+     */
+    public String shuffle(final Integer seed) {
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before using the shuffle function.";
+        }
 
-        if (!player.getType().equals("playlist"))
+        if (!player.getType().equals("playlist") && !player.getType().equals("album")) {
             return "The loaded source is not a playlist or an album.";
-
+        }
         player.shuffle(seed);
 
-        if (player.getShuffle())
+        if (player.getShuffle()) {
             return "Shuffle function activated successfully.";
+        }
         return "Shuffle function deactivated successfully.";
     }
 
+    /**
+     * Forward string.
+     *
+     * @return the string
+     */
     public String forward() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before attempting to forward.";
-
-        if (!player.getType().equals("podcast"))
+        }
+        if (!player.getType().equals("podcast")) {
             return "The loaded source is not a podcast.";
-
+        }
         player.skipNext();
 
         return "Skipped forward successfully.";
     }
 
+    /**
+     * Backward string.
+     *
+     * @return the string
+     */
     public String backward() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please select a source before rewinding.";
+        }
 
-        if (!player.getType().equals("podcast"))
+        if (!player.getType().equals("podcast")) {
             return "The loaded source is not a podcast.";
-
+        }
         player.skipPrev();
 
         return "Rewound successfully.";
     }
 
+    /**
+     * Like string.
+     *
+     * @return the string
+     */
     public String like() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before liking or unliking.";
-
-        if (!player.getType().equals("song") && !player.getType().equals("playlist"))
+        }
+        if (!player.getType().equals("song") && !player.getType().equals("playlist")) {
             return "Loaded source is not a song.";
-
+        }
         Song song = (Song) player.getCurrentAudioFile();
 
         if (likedSongs.contains(song)) {
@@ -239,18 +354,30 @@ public class User extends LibraryEntry {
         return "Like registered successfully.";
     }
 
+    /**
+     * Next string.
+     *
+     * @return the string
+     */
     public String next() {
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before skipping to the next track.";
-
+        }
         player.next();
 
-        if (player.getCurrentAudioFile() == null)
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before skipping to the next track.";
+        }
 
-        return "Skipped to next track successfully. The current track is %s.".formatted(player.getCurrentAudioFile().getName());
+        return "Skipped to next track successfully. The current track is %s."
+                .formatted(player.getCurrentAudioFile().getName());
     }
 
+    /**
+     * Prev string.
+     *
+     * @return the string
+     */
     public String prev() {
         if (player.getCurrentAudioFile() == null) {
             return "Please load a source before returning to the previous track.";
@@ -259,44 +386,67 @@ public class User extends LibraryEntry {
         player.prev();
 
         // Update this line to handle when the source is an album
-        String currentTrackName = player.getCurrentAudioFile() != null ? player.getCurrentAudioFile().getName() : "No track";
-        return "Returned to previous track successfully. The current track is %s.".formatted(currentTrackName);
+        String currentTrackName = player.getCurrentAudioFile() != null ? player.
+                getCurrentAudioFile().getName() : "No track";
+        return "Returned to previous track successfully. The current track is %s."
+                .formatted(currentTrackName);
     }
 
-
-    public String createPlaylist(String name, int timestamp) {
-        if (playlists.stream().anyMatch(playlist -> playlist.getName().equals(name)))
+    /**
+     * Create playlist string.
+     *
+     * @param name      the name
+     * @param timestamp the timestamp
+     * @return the string
+     */
+    public String createPlaylist(final String name, final int timestamp) {
+        if (playlists.stream().anyMatch(playlist -> playlist.getName().equals(name))) {
             return "A playlist with the same name already exists.";
-
+        }
         playlists.add(new Playlist(name, username, timestamp));
 
         return "Playlist created successfully.";
     }
 
-    public String addRemoveInPlaylist(int Id) {
-        if (player.getCurrentAudioFile() == null)
+    /**
+     * Add remove in playlist string.
+     *
+     * @param id the id
+     * @return the string
+     */
+    public String addRemoveInPlaylist(final int id) {
+        if (player.getCurrentAudioFile() == null) {
             return "Please load a source before adding to or removing from the playlist.";
+        }
 
-        if (player.getType().equals("podcast"))
+        if (player.getType().equals("podcast")) {
             return "The loaded source is not a song.";
+        }
 
-        if (Id > playlists.size())
+        if (id > playlists.size()) {
             return "The specified playlist does not exist.";
+        }
 
-        Playlist playlist = playlists.get(Id - 1);
+        Playlist playlist = playlists.get(id - 1);
 
-        if (playlist.containsSong((Song)player.getCurrentAudioFile())) {
-            playlist.removeSong((Song)player.getCurrentAudioFile());
+        if (playlist.containsSong((Song) player.getCurrentAudioFile())) {
+            playlist.removeSong((Song) player.getCurrentAudioFile());
             return "Successfully removed from playlist.";
         }
 
-        playlist.addSong((Song)player.getCurrentAudioFile());
+        playlist.addSong((Song) player.getCurrentAudioFile());
         return "Successfully added to playlist.";
     }
-
-    public String switchPlaylistVisibility(Integer playlistId) {
-        if (playlistId > playlists.size())
+    /**
+     * Switch playlist visibility string.
+     *
+     * @param playlistId the playlist id
+     * @return the string
+     */
+    public String switchPlaylistVisibility(final Integer playlistId) {
+        if (playlistId > playlists.size()) {
             return "The specified playlist ID is too high.";
+        }
 
         Playlist playlist = playlists.get(playlistId - 1);
         playlist.switchVisibility();
@@ -307,7 +457,11 @@ public class User extends LibraryEntry {
 
         return "Visibility status updated successfully to private.";
     }
-
+    /**
+     * Show playlists array list.
+     *
+     * @return the array list
+     */
     public ArrayList<PlaylistOutput> showPlaylists() {
         ArrayList<PlaylistOutput> playlistOutputs = new ArrayList<>();
         for (Playlist playlist : playlists) {
@@ -316,21 +470,28 @@ public class User extends LibraryEntry {
 
         return playlistOutputs;
     }
-
+    /**
+     * Follow string.
+     *
+     * @return the string
+     */
     public String follow() {
         LibraryEntry selection = searchBar.getLastSelected();
         String type = searchBar.getLastSearchType();
 
-        if (selection == null)
+        if (selection == null) {
             return "Please select a source before following or unfollowing.";
+        }
 
-        if (!type.equals("playlist"))
+        if (!type.equals("playlist")) {
             return "The selected source is not a playlist.";
+        }
 
-        Playlist playlist = (Playlist)selection;
+        Playlist playlist = (Playlist) selection;
 
-        if (playlist.getOwner().equals(username))
+        if (playlist.getOwner().equals(username)) {
             return "You cannot follow or unfollow your own playlist.";
+        }
 
         if (followedPlaylists.contains(playlist)) {
             followedPlaylists.remove(playlist);
@@ -345,21 +506,47 @@ public class User extends LibraryEntry {
 
         return "Playlist followed successfully.";
     }
-    public void deleteFollowedPlaylist(ArrayList<Playlist> playlistsToDelete) {
 
-        for (Playlist playlist : playlistsToDelete) {
-            if (followedPlaylists.contains(playlist)) {
-                followedPlaylists.remove(playlist); // Remove the playlist from followedPlaylists
-                playlist.decreaseFollowers();       // Decrease followers of the playlist
+    /**
+     * Removes a playlist from the list of playlists followed by the user.
+     *
+     *
+     */
+    public void removeUserFollowedPlaylists(final User user) {
+        if (user == null) {
+            return;
+        }
+
+        List<Playlist> followedPlaylists = getFollowedPlaylists();
+        List<Playlist> playlistsToRemove = new ArrayList<>();
+
+        // Identify playlists to remove
+        for (Playlist playlist : followedPlaylists) {
+            if (playlist.getOwner().equals(user.getUsername())) {
+                playlist.decreaseFollowers();
+                playlistsToRemove.add(playlist);
+                followedPlaylists.remove(playlist);
             }
         }
+
+        // Remove the identified playlists from followed playlists
+        followedPlaylists.removeAll(playlistsToRemove);
     }
 
 
+    /**
+     * Gets player stats.
+     *
+     * @return the player stats
+     */
     public PlayerStats getPlayerStats() {
         return player.getStats();
     }
-
+    /**
+     * Show preferred songs array list.
+     *
+     * @return the array list
+     */
     public ArrayList<String> showPreferredSongs() {
         ArrayList<String> results = new ArrayList<>();
         for (AudioFile audioFile : likedSongs) {
@@ -368,7 +555,11 @@ public class User extends LibraryEntry {
 
         return results;
     }
-
+    /**
+     * Gets preferred genre.
+     *
+     * @return the preferred genre
+     */
     public String getPreferredGenre() {
         String[] genres = {"pop", "rock", "rap"};
         int[] counts = new int[genres.length];
@@ -391,20 +582,35 @@ public class User extends LibraryEntry {
         String preferredGenre = mostLikedIndex != -1 ? genres[mostLikedIndex] : "unknown";
         return "This user's preferred genre is %s.".formatted(preferredGenre);
     }
-
-    public void simulateTime(int time) {
+    /**
+     * Simulate time.
+     *
+     * @param time the time
+     */
+    public void simulateTime(final int time) {
         player.simulatePlayer(time);
     }
 
-
+    /*
+    * switchStatus
+    * */
     public void switchStatus() {
         this.isOnline = !this.isOnline;
         if (!isOnline) {
             this.player.pause();
         }
     }
-
-    public static String addUser(String username, int age, String city, Enums.UserType userType) {
+    /**
+     * Adds a new user with the specified username, age, city, and user type.
+     *
+     * @param username The username of the new user.
+     * @param age The age of the new user.
+     * @param city The city of the new user.
+     * @param userType The type of the new user (ARTIST, HOST, or USER).
+     * @return A message indicating the result of the operation.
+     */
+    public static String addUser(final String username,
+                                 final int age, final String city, final Enums.UserType userType) {
         // Check if user already exists
         User existingUser = Admin.getUser(username);
         if (existingUser != null) {
@@ -425,35 +631,40 @@ public class User extends LibraryEntry {
                 break;
         }
         Admin.addUser(newUser);
-        newUser.setCurrentPageType("HomePage");
-
         return "The username " + username + " has been added successfully.";
     }
+
     @Setter
     @Getter
     private  String currentPageType;
-//    public Enums.PageType getCurrentPageType() {
-////        if (this.getUserType() == Enums.UserType.ARTIST) {
-////            this.setCurrentPageType(Enums.PageType.ARTISTPAGE);
-////        } else if (this.getUserType() == Enums.UserType.HOST) {
-////            this.setCurrentPageType(Enums.PageType.HOSTPAGE); // Set to HOSTPAGE for HOST users
-////        } else if (this.getUserType() == Enums.UserType.USER) {
-////            this.setCurrentPageType(Enums.PageType.HOMEPAGE);
-////        }
-//        return this.currentPageType;
-//    }
 
     public String getCurrentPageType() {
         return currentPageType;
     }
 
-    public void setCurrentPageType(String currentPageType) {
+    /**
+     * Sets the current page type and page owner for the user.
+     *
+     * @param currentPageType The type of the current page (e.g., "ArtistPage").
+     * @param pageOwner The owner of the current page.
+     */
+    public void setCurrentPageType(final String currentPageType, final User pageOwner) {
         this.currentPageType = currentPageType;
+        this.currPageOwner = pageOwner;
     }
 
 
-
-    public String printCurrentPage(User user, Enums.UserType userType) {
+    public void setFollowedPlaylists(final ArrayList<Playlist> followedPlaylists) {
+        this.followedPlaylists = followedPlaylists;
+    }
+    /**
+     * Prints the content of the current page based on the user's role.
+     *
+     * @param user The user for whom to print the current page.
+     * @param userRole The role of the user (e.g., Enums.UserType.ARTIST).
+     * @return The content of the current page as a string.
+     */
+    public String printCurrentPage(final User user, final Enums.UserType userRole) {
         String pageContent = "";
         if (currentPageType == null) {
             return "Page type is not set.";
@@ -461,207 +672,41 @@ public class User extends LibraryEntry {
 
         switch (user.getCurrentPageType()) {
             case "ArtistPage":
-                Artist artist = (Artist) user;
-                ArtistPage artistPage = new ArtistPage(user.getUsername(), artist);
+                Artist artist = (Artist) currPageOwner;
+                ArtistPage artistPage = new ArtistPage(artist);
+                //setCurrentPage(artistPage, );
                 // Populate artistPage with necessary data
                 pageContent = artistPage.displayPage();
-
                 break;
-            case "homePage":
-                HomePage homePage = new HomePage(user.getUsername(), user);
+            case "HomePage":
+                User homepageuser = currPageOwner;
+                HomePage homePage = new HomePage(homepageuser);
+                //setCurrentPage(homePage);
                 // Populate homePage with liked songs and followed playlists
-                // For example: homePage.setLikedSongs(...), homePage.setFollowedPlaylists(...), etc.
+                // For example: homePage.setLikedSongs(...),
+                // homePage.setFollowedPlaylists(...), etc.
+                user.setFollowedPlaylists(this.followedPlaylists);
                 pageContent = homePage.displayPage();
                 break;
             case "LikedContentPage":
-                LikedContentPage likedContentPage = new LikedContentPage(user.getUsername(), user);
-                // Populate likedContentPage with necessary data
+                User likedcontentusser = currPageOwner;
+                LikedContentPage likedContentPage = new LikedContentPage(likedcontentusser);
+                //setCurrentPage(likedContentPage);
+                user.setFollowedPlaylists(this.followedPlaylists);
                 pageContent = likedContentPage.displayPage();
                 break;
             case "HostPage":
-                Host host = (Host) user;
-                HostPage hostPage = new HostPage(user.getUsername(), host);
-                // Populate hostPage with necessary data
+                Host host = (Host) currPageOwner;
+                HostPage hostPage = new HostPage(host);
+                //setCurrentPage(hostPage);
                 pageContent = hostPage.displayPage();
+                break;
+            default:
                 break;
 
         }
         return pageContent;
     }
-
-
-    public String printCurrentPagess(User user) {
-
-        if (currentPageType == null) {
-            return "Page type is not set.";
-        }
-        if (!user.isOnline()) {
-            return user.getUsername() + " is offline.";
-        }
-        StringBuilder sb = new StringBuilder();
-
-        switch (user.getCurrentPageType()) {
-            case "HomePage":
-                // Retrieve liked songs specific to the user
-                List<String> userLikedSongs = user.getLikedSongs().stream()
-                        .map(Song::getName)
-                        .collect(Collectors.toList());
-
-                sb.append("Liked songs:\n\t");
-                sb.append(formatList(userLikedSongs));
-                sb.append("\n\nFollowed playlists:\n\t");
-
-                List<String> formattedPlaylists = user.getFollowedPlaylists().stream()
-                        .map(p -> p.getName())
-                        .collect(Collectors.toList());
-                sb.append(formatList(formattedPlaylists));
-
-                break;
-
-            case "LikedContentPage":
-
-                // Formatting liked songs to include the artist's name
-                List<String> userLikedSongs1 = user.getLikedSongs().stream()
-                        .map(song -> song.getName() + " - " + song.getArtist()) // Assuming getArtistName() exists
-                        .collect(Collectors.toList());
-
-                sb.append("Liked songs:\n\t");
-                sb.append(formatList(userLikedSongs1));
-                sb.append("\n\nFollowed playlists:\n\t");
-
-                // Formatting followed playlists
-                List<String> formattedPlaylists1 = user.getFollowedPlaylists().stream()
-                        .map(p -> {
-                            String playlistInfo = p.getName();
-                            if (user.isOnline) {
-                                playlistInfo += " - " + p.getOwner();  // Append the owner's username
-                            }
-                            return playlistInfo;
-                        })
-                        .collect(Collectors.toList());
-                sb.append(formatList(formattedPlaylists1));
-                break;
-
-            case "ArtistPage":
-                sb.append("Albums:\n\t");
-                List<Album> albums = Admin.getAlbums();
-                if (!albums.isEmpty()) {
-                    Album firstAlbum = albums.get(0); // Get the first album
-                    sb.append("[").append(firstAlbum.getName()).append("]"); // Append the name of the first album
-                } else {
-                    sb.append("[]");
-                }
-                // Merchandise
-                sb.append("\n\nMerch:\n\t");
-                List<Artist.Merchandise> merchList = Artist.getMerchList();
-                if (merchList != null && !merchList.isEmpty()) {
-                    sb.append("["); // Start with an opening bracket
-                    for (Artist.Merchandise merch : merchList) {
-                        String formattedPrice;
-                        if (merch.getPrice() == (long) merch.getPrice()) {
-                            formattedPrice = String.format("%d", (long) merch.getPrice());
-                        } else {
-                            formattedPrice = String.format("%.2f", merch.getPrice());
-                        }
-                        sb.append(merch.getName()).append(" - ")
-                                .append(formattedPrice).append(":\n\t")
-                                .append(merch.getDescription()).append(", ");
-                    }
-                    sb.setLength(sb.length() - 2); // Remove the last comma and space
-                    sb.append("]"); // Close with a bracket
-                } else {
-                    sb.append("[]");
-                }
-
-                // Events
-                sb.append("\n\nEvents:\n\t");
-                List<Artist.Event> eventList = Artist.getEvents(); // Fetch the events specific to the artist
-                SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
-                if (eventList != null && !eventList.isEmpty()) {
-                    sb.append("["); // Start with an opening bracket
-                    for (Artist.Event event : eventList) {
-                        sb.append(event.getName()).append(" - ")
-                                .append(sdf.format(event.getDate()))
-                                .append(":\n\t").append(event.getDescription()).append(", ");
-                    }
-                    sb.setLength(sb.length() - 2); // Remove the last comma and space
-                    sb.append("]"); // Close with a bracket
-                } else {
-                    sb.append("[]");
-                }
-                break;
-
-            case "HostPage":
-
-                sb.append("Podcasts:\n\t[");
-                List<Podcast> podcasts = Admin.getAllNewPodcasts();
-                if (!podcasts.isEmpty()) {
-                    for (int j = 0; j < podcasts.size(); j++) {
-                        Podcast podcast = podcasts.get(j);
-                        // Append the name of each podcast
-                        sb.append(podcast.getName()).append(":\n\t[");
-
-                        // Check if the podcast has episodes and append them
-                        if (!podcast.getEpisodes().isEmpty()) {
-                            List<Episode> episodes = podcast.getEpisodes();
-                            for (int i = 0; i < episodes.size(); i++) {
-                                Episode episode = episodes.get(i);
-                                // Append each episode's name and description
-                                sb.append(episode.getName()).append(" - ").append(episode.getDescription());
-                                // Append comma only if it's not the last episode
-                                if (i < episodes.size() - 1) {
-                                    sb.append(", ");
-                                }
-                            }
-                        } else {
-                            // If the podcast has no episodes
-                            sb.append("No episodes available");
-                        }
-                        // Close the episodes list
-                        sb.append("]");
-
-                        // Append a comma and newline only if it's not the last podcast
-                        if (j < podcasts.size() - 1) {
-                            sb.append("\n, ");
-                        }
-                    }
-                }
-
-
-
-                sb.append("\n]\n\nAnnouncements:\n\t");
-                List<Host.Announcement> announcementList = Host.getAllAnnouncements();
-
-                if (announcementList != null && !announcementList.isEmpty()) {
-                    sb.append("["); // Start with an opening bracket
-                    for (int i = 0; i < announcementList.size(); i++) {
-                        Host.Announcement announcement = announcementList.get(i);
-                        sb.append(announcement.getName()).append(":\n\t")
-                                .append(announcement.getDescription())
-                                .append("\n");
-                        if (i < announcementList.size() - 1) {
-                            sb.append("\n, ");
-                        }
-                    }
-                    sb.append("]");
-                } else {
-                    sb.append("[]");
-                }
-
-
-        }
-        return sb.toString();
-    }
-
-
-    private String formatList(List<String> items) {
-        if (items.isEmpty()) {
-            return "[]";
-        } else {
-            return "[" + String.join(", ", items) + "]";
-        }
-    }
-
 
 
 

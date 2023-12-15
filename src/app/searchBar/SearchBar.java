@@ -2,48 +2,61 @@ package app.searchBar;
 
 
 import app.Admin;
-import app.audio.Collections.Album;
 import app.audio.LibraryEntry;
-import app.user.User;
-import app.utils.Enums;
 import lombok.Getter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static app.searchBar.FilterUtils.*;
-import static app.searchBar.FilterUtils.filterByFollowers;
 
+/**
+ * A SearchBar class for performing searches and managing search results.
+ */
 public class SearchBar {
     private List<LibraryEntry> results;
     private final String user;
     private static final Integer MAX_RESULTS = 5;
-    private static SearchBar instance;
     private String lastSearchType;
 
     @Getter
     private LibraryEntry lastSelected;
 
-    public SearchBar(String user) {
+    /**
+     * Constructs a SearchBar object with the specified user.
+     *
+     * @param user The user associated with the SearchBar.
+     */
+    public SearchBar(final String user) {
         this.results = new ArrayList<>();
         this.user = user;
     }
 
-
-    public  String getLastSearchType() {
+    /**
+     * Gets the last search type used.
+     *
+     * @return The last search type.
+     */
+    public String getLastSearchType() {
         return lastSearchType;
     }
 
-
-    public void setLastSearchType(String type) {
-        this.lastSearchType = type;
-    }
-
+    /**
+     * Clears the selection and last search type.
+     */
     public void clearSelection() {
         lastSelected = null;
         lastSearchType = null;
     }
-    public List<LibraryEntry> search(Filters filters, String type) {
+
+    /**
+     * Performs a search based on the specified filters and type.
+     *
+     * @param filters The filters to apply to the search.
+     * @param type    The type of search to perform.
+     * @return A list of LibraryEntry objects matching the search criteria.
+     */
+    public List<LibraryEntry> search(final Filters filters, final String type) {
         List<LibraryEntry> entries;
 
         switch (type) {
@@ -151,8 +164,13 @@ public class SearchBar {
         this.lastSearchType = type;
         return this.results;
     }
-    private Album lastSelectedAlbum;
-    public LibraryEntry select(int itemNumber) {
+    /**
+     * Selects an item from the search results based on the item number.
+     *
+     * @param itemNumber The item number to select.
+     * @return The selected LibraryEntry object.
+     */
+    public LibraryEntry select(final int itemNumber) {
         if (this.results.size() < itemNumber) {
             results.clear();
 

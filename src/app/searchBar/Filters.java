@@ -20,7 +20,7 @@ public class Filters {
     private String description;
 
 
-    public Filters(FiltersInput filters) {
+    public Filters(final FiltersInput filters) {
         this.name = filters.getName();
         this.album = filters.getAlbum();
         this.tags = filters.getTags();

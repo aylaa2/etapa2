@@ -1,7 +1,6 @@
 package app.audio.Collections;
 
 import app.audio.Files.Song;
-import app.utils.Enums;
 import lombok.Getter;
 
 import java.util.ArrayList;
@@ -14,19 +13,14 @@ public final class Album extends AudioCollection {
     private final String description;
     private final List<Song> songs;
 
-    public Album(String name, String owner, String description, int releaseYear, List<Song> songInputs) {
+    public Album(final String name, final String owner, final String description,
+                 final int releaseYear, final List<Song> songInputs) {
         super(name, owner);
         this.description = description;
         this.releaseYear = releaseYear;
         this.songs = new ArrayList<>(songInputs);
 
     }
-//    @Override
-//    public Enums.PageType getPageType() {
-//        // Determine what page type is appropriate for Playlist
-//        // This is just an example. You should replace it with what makes sense for your application
-//        return Enums.PageType.ARTISTPAGE;
-//    }
 
     @Override
     public int getNumberOfTracks() {
@@ -34,18 +28,20 @@ public final class Album extends AudioCollection {
     }
 
     @Override
-    public boolean matchesName(String name) {
-        return getName().toLowerCase().startsWith(name.toLowerCase());
+    public boolean matchesName(final String name) {
+        return getName()
+                .toLowerCase().startsWith(name.toLowerCase());
     }
 
 
     @Override
-    public boolean matchesDescription(String descriptionText) {
-        return description != null && description.contains(descriptionText);
+    public boolean matchesDescription(final String descriptionText) {
+        return description != null
+                && description.contains(descriptionText);
     }
 
     @Override
-    public Song getTrackByIndex(int index) {
+    public Song getTrackByIndex(final int index) {
         if (index >= 0 && index < songs.size()) {
             return songs.get(index);
         }

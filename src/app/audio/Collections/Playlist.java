@@ -7,6 +7,9 @@ import lombok.Getter;
 
 import java.util.ArrayList;
 
+/**
+ * Represents a playlist in the audio collection system.
+ */
 @Getter
 public final class Playlist extends AudioCollection {
     private final ArrayList<Song> songs;
@@ -14,11 +17,24 @@ public final class Playlist extends AudioCollection {
     private Integer followers;
     private int timestamp;
 
-    public Playlist(String name, String owner) {
+    /**
+     * Constructor for Playlist with default timestamp.
+     *
+     * @param name  The name of the playlist.
+     * @param owner The owner of the playlist.
+     */
+    public Playlist(final String name, final String owner) {
         this(name, owner, 0);
     }
 
-    public Playlist(String name, String owner, int timestamp) {
+    /**
+     * Constructor for Playlist.
+     *
+     * @param name      The name of the playlist.
+     * @param owner     The owner of the playlist.
+     * @param timestamp The timestamp of the playlist creation.
+     */
+    public Playlist(final String name, final String owner, final int timestamp) {
         super(name, owner);
         this.songs = new ArrayList<>();
         this.visibility = Enums.Visibility.PUBLIC;
@@ -26,21 +42,46 @@ public final class Playlist extends AudioCollection {
         this.timestamp = timestamp;
     }
 
-    public boolean containsSong(Song song) {
+    /**
+     * Checks if a song is contained in the playlist.
+     *
+     * @param song The song to check.
+     * @return True if the song is in the playlist.
+     */
+    public boolean containsSong(final Song song) {
         return songs.contains(song);
     }
 
-    public void addSong(Song song) {
+    /**
+     * Adds a song to the playlist.
+     *
+     * @param song The song to add.
+     */
+    public void addSong(final Song song) {
         songs.add(song);
     }
 
-    public void removeSong(Song song) {
+    /**
+     * Removes a song from the playlist.
+     *
+     * @param song The song to remove.
+     */
+    public void removeSong(final Song song) {
         songs.remove(song);
     }
-    public void removeSong(int index) {
+
+    /**
+     * Removes a song from the playlist by index.
+     *
+     * @param index The index of the song to remove.
+     */
+    public void removeSong(final int index) {
         songs.remove(index);
     }
 
+    /**
+     * Switches the visibility of the playlist between public and private.
+     */
     public void switchVisibility() {
         if (visibility == Enums.Visibility.PUBLIC) {
             visibility = Enums.Visibility.PRIVATE;
@@ -49,10 +90,16 @@ public final class Playlist extends AudioCollection {
         }
     }
 
+    /**
+     * Increases the number of followers of the playlist.
+     */
     public void increaseFollowers() {
         followers++;
     }
 
+    /**
+     * Decreases the number of followers of the playlist.
+     */
     public void decreaseFollowers() {
         followers--;
     }
@@ -63,22 +110,23 @@ public final class Playlist extends AudioCollection {
     }
 
     @Override
-    public AudioFile getTrackByIndex(int index) {
+    public AudioFile getTrackByIndex(final int index) {
         return songs.get(index);
     }
 
     @Override
-    public boolean isVisibleToUser(String user) {
-        return this.getVisibility() == Enums.Visibility.PUBLIC ||
-                (this.getVisibility() == Enums.Visibility.PRIVATE && this.getOwner().equals(user));
+    public boolean isVisibleToUser(final String user) {
+        return this.getVisibility() == Enums.Visibility.PUBLIC
+                || (this.getVisibility() == Enums.Visibility.PRIVATE
+                && this.getOwner().equals(user));
     }
 
     @Override
-    public boolean matchesFollowers(String followers) {
-        return filterByFollowersCount(this.getFollowers(), followers);
+    public boolean matchesFollowers(final String query) {
+        return filterByFollowersCount(this.getFollowers(), query);
     }
 
-    private static boolean filterByFollowersCount(int count, String query) {
+    private static boolean filterByFollowersCount(final int count, final String query) {
         if (query.startsWith("<")) {
             return count < Integer.parseInt(query.substring(1));
         } else if (query.startsWith(">")) {

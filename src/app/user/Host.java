@@ -1,18 +1,15 @@
 package app.user;
 
 import app.Admin;
-import app.audio.Collections.Album;
+
 import app.audio.Collections.Podcast;
 import app.audio.Files.Episode;
-import app.audio.Files.Song;
 import app.player.Player;
 import app.utils.Enums;
-import fileio.input.CommandInput;
 import fileio.input.EpisodeInput;
-import fileio.input.PodcastInput;
 import lombok.Getter;
 import lombok.Setter;
-import org.checkerframework.checker.units.qual.A;
+
 
 import java.util.*;
 
@@ -20,10 +17,13 @@ import java.util.*;
 public class Host extends User {
     private final List<Podcast> podcasts;
     public List<Episode> episodesForNewPodcast;
+    @Getter
+    private  List<Announcement> announcements;
     public Host(String username, int age, String city) {
         super(username, age, city);
         this.episodesForNewPodcast = new ArrayList<>();
         this.podcasts = new ArrayList<>();
+        this.announcements = new ArrayList<>();
         setUserType(Enums.UserType.HOST);
     }
 
@@ -33,7 +33,7 @@ public class Host extends User {
     }
 
     // Add a new podcast
-    public String addPodcast(String name, List<EpisodeInput> episodeInputs) {
+    public String addPodcast(final String name, final List<EpisodeInput> episodeInputs) {
         setUserType(Enums.UserType.HOST);
         for (Podcast podcast : podcasts) {
             if (podcast.getName().equalsIgnoreCase(name)) {
@@ -71,54 +71,54 @@ public class Host extends User {
     public static class Announcement {
         private String name;
         private String description;
+        private User user;
 
-        public Announcement(String name, String description) {
+        public Announcement(String name, String description, User user) {
+            this.user = user;
             this.name = name;
             this.description = description;
         }
+
+
         @Override
         public String toString() {
             return name + ":\n\t" + description + "\n";
         }
     }
 
-    public static List<Announcement> announcements = new ArrayList<>();
 
-    public static List<Announcement> getAnnouncements() {
 
+    public  List<Announcement> getAnnouncements() {
         return announcements;
     }
 
-    public static List<Announcement> getAllAnnouncements() {
-        return announcements;
-    }
-
-
-
-    public String addAnnouncement(String name, String description) {
+    public String addAnnouncement(final String name, final String description) {
         setUserType(Enums.UserType.HOST);
+
         for (Announcement announcement : announcements) {
             if (announcement.getName().equals(name)) {
                 return getUsername() + " has already added an announcement with this name.";
             }
         }
 
-        announcements.add(new Announcement(name, description));
+        Announcement newAnnouncement = new Announcement(name, description, this);
+        announcements.add(newAnnouncement);
+
         return getUsername() + " has successfully added new announcement.";
     }
 
-    public String removeAnnouncement(String name) {
-        setUserType(Enums.UserType.HOST);
-        Iterator<Announcement> iterator = announcements.iterator();
-        while (iterator.hasNext()) {
-            Announcement announcement = iterator.next();
-            if (announcement.getName().equals(name)) {
-                iterator.remove();
+    public String removeAnnouncement(final Host host, final String nameAnounc) {
+
+        for(Announcement announcementss : host.getAnnouncements()){
+            if( announcementss.getName().equals(nameAnounc)){
+                announcements.remove(announcementss);
                 return getUsername() + " has successfully deleted the announcement.";
             }
         }
+
         return getUsername() + " has no announcement with the given name.";
     }
+
 
 
     @Getter
@@ -164,7 +164,7 @@ public class Host extends User {
     }
 
 
-    public String removePodcast(String podcastName) {
+    public String removePodcast(final String podcastName) {
         setUserType(Enums.UserType.HOST);
 
         // Check if the host has a podcast with the given name
@@ -180,7 +180,7 @@ public class Host extends User {
             return getUsername() + " doesn't have a podcast with the given name.";
         }
 
-        List<Player> activePlayers  = Admin.getActivePlayers();
+        List<Player> activePlayers = Admin.getActivePlayers();
         boolean isPodcastInUse = Admin.isHostContentBeingPlayed(this, activePlayers);
 
         if (isPodcastInUse) {
@@ -194,6 +194,5 @@ public class Host extends User {
 
         return getUsername() + " deleted the podcast successfully.";
     }
-
 
 }

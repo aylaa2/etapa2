@@ -129,7 +129,7 @@
   "timestamp" : 430,
   "message" : "Successfully added to playlist."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork.]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[]\n\nEvents:\n\t[Event1 - 01-01-2022:\n\tPrimul Event adaugat!]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 430
@@ -179,7 +179,7 @@
   "command" : "shuffle",
   "timestamp" : 440,
   "user" : "bob35",
-  "message" : "The loaded source is not a playlist or an album."
+  "message" : "Shuffle function activated successfully."
 }, {
   "command" : "status",
   "timestamp" : 446,
@@ -188,7 +188,7 @@
     "name" : "Vibrant Echoes",
     "remainedTime" : 237,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -211,10 +211,10 @@
   "timestamp" : 1000,
   "user" : "bob35",
   "stats" : {
-    "name" : "Retro Rhythms",
-    "remainedTime" : 203,
+    "name" : "Digital Dreams",
+    "remainedTime" : 243,
     "repeat" : "No Repeat",
-    "shuffle" : false,
+    "shuffle" : true,
     "paused" : false
   }
 }, {
@@ -249,6 +249,11 @@
   "user" : "carol19",
   "timestamp" : 2435,
   "message" : "Successfully selected My playlist."
+}, {
+  "command" : "removeEvent",
+  "timestamp" : 2440,
+  "user" : "melodymaster",
+  "message" : "melodymaster deleted the event successfully."
 }, {
   "command" : "search",
   "user" : "bob35",
@@ -369,7 +374,7 @@
   "command" : "removeAlbum",
   "user" : "melodymaster",
   "timestamp" : 3000,
-  "message" : "melodymaster deleted the album successfully."
+  "message" : "melodymaster can't delete this album."
 }, {
   "command" : "status",
   "timestamp" : 3250,
@@ -414,7 +419,7 @@
     "paused" : true
   }
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 3900
@@ -462,7 +467,7 @@
   "user" : "bob35",
   "message" : "Shuffle function activated successfully."
 }, {
-  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Harmonic T-Shirt - 25:\n\tLimited edition T-shirt featuring unique harmonic designs., Echoes Cap - 20:\n\tStylish cap with the 'Echoes of Harmony' album artwork., Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Harmonic Convergence - 15-06-2022:\n\tA night of mesmerizing melodies and soundscapes., Echoes of the Future - 23-09-2022:\n\tExploring futuristic sounds in a live performance., Event1 - 01-01-2022:\n\tPrimul Event adaugat!, Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
+  "message" : "Albums:\n\t[Harmonic Horizons]\n\nMerch:\n\t[Merch1 - 100:\n\tPrimul Merch adaugat!]\n\nEvents:\n\t[Event2 - 05-02-2021:\n\tAl doilea Event adaugat!]",
   "command" : "printCurrentPage",
   "user" : "david27",
   "timestamp" : 4400

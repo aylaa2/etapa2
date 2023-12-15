@@ -5,9 +5,6 @@ import app.audio.Collections.Album;
 import app.audio.Files.Song;
 import app.player.Player;
 import app.utils.Enums;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ArrayNode;
-import com.fasterxml.jackson.databind.node.ObjectNode;
 import fileio.input.SongInput;
 import lombok.Getter;
 import lombok.Setter;
@@ -19,7 +16,8 @@ import java.util.*;
 public class Artist extends User {
     private final List<Album> albums;
     @Getter
-    public  List<Song> songsForNewAlbum;
+    private  List<Song> songsForNewAlbum;
+
     public List<Album> getAlbums() {
         return albums;
     }
@@ -30,7 +28,7 @@ public class Artist extends User {
         setUserType(Enums.UserType.ARTIST);
     }
 
-    public String addAlbum(String name, int releaseYear, String description, List<SongInput> songInputs) {
+    public String addAlbum(final String name, final int releaseYear, final String description, final List<SongInput> songInputs) {
         setUserType(Enums.UserType.ARTIST);
 
         for (Album album : albums) {
@@ -73,17 +71,17 @@ public class Artist extends User {
         return getUsername() + " has added new album successfully.";
     }
 
-
     public List<Album> showAlbums() {
         return albums;
     }
+
     @Getter
     @Setter
     public static class PartialAlbum {
         private String name;
         private List<String> songs = new ArrayList<>();
-
     }
+
     public List<PartialAlbum> getFormattedAlbums() {
         List<PartialAlbum> partialAlbums = new ArrayList<>();
 
@@ -99,7 +97,7 @@ public class Artist extends User {
         return partialAlbums;
     }
 
-    public String removeAlbum(String albumName) {
+    public String removeAlbum(final String albumName) {
         // Check if the artist has an album with the given name
         Album albumToRemove = null;
         for (Album album : albums) {
@@ -112,10 +110,9 @@ public class Artist extends User {
             return getUsername() + " doesn't have an album with the given name.";
         }
 
-        List<Player> activePlayers  = Admin.getActivePlayers();
-        boolean isAlbumInUse = Admin.isArtistContentBeingPlayed(this, activePlayers); // Assuming activePlayers is a list of Player objects
-
-        if (isAlbumInUse) {
+        List<Player> activePlayers = Admin.getActivePlayers();
+        // Check if the album or its songs are being played
+        if (Admin.isArtistContentBeingPlayed(Artist.this, activePlayers)) {
             return getUsername() + " can't delete this album.";
         }
 
@@ -129,14 +126,13 @@ public class Artist extends User {
         return getUsername() + " deleted the album successfully.";
     }
 
-
     private static List<Event> events = new ArrayList<>();
 
     public static List<Event> getEvents() {
         return events;
     }
 
-    public String addEvent(String name, String description, String dateString) {
+    public String addEvent(final String name, final String description, final String dateString) {
         setUserType(Enums.UserType.ARTIST);
         SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
         sdf.setLenient(false);
@@ -173,43 +169,60 @@ public class Artist extends User {
         events.add(newEvent);
         return getUsername() + " has added new event successfully.";
     }
+
     @Getter
     @Setter
-    public static class Event{
+    public static class Event {
         private String name;
         private String description;
         private Date date;
 
         // Constructor
-        public Event(String name, String description, Date date) {
+        public Event(final String name, final String description, final Date date) {
             this.name = name;
             this.description = description;
             this.date = date;
         }
     }
+
+    public String removeEvent(final String eventName) {
+        Iterator<Event> iterator = events.iterator();
+
+        while (iterator.hasNext()) {
+            Event event = iterator.next();
+            if (event.getName().equalsIgnoreCase(eventName)) {
+                iterator.remove();
+                return getUsername() + " deleted the event successfully.";
+            }
+        }
+
+        return getUsername() + " doesn't have an event with the given name.";
+    }
+
     @Getter
     public class Merchandise {
         private String name;
         private String description;
         private double price;
 
-        public Merchandise(String name, String description, double price) {
+        public Merchandise(final String name, final String description, final double price) {
             this.name = name;
             this.description = description;
             this.price = price;
         }
 
     }
-    private static  List<Merchandise> merchList = new ArrayList<>();
+
+    private static List<Merchandise> merchList = new ArrayList<>();
 
     public static List<Merchandise> getMerchList() {
         return merchList;
     }
 
-    public String addMerch(String name, String description, double price) {
+    public String addMerch(final String name, final String description, final double price) {
         setUserType(Enums.UserType.ARTIST);
         if (price < 0) {
-            return  "Price for merchandise can not be negative.";
+            return "Price for merchandise can not be negative.";
         }
 
         for (Merchandise merch : merchList) {
@@ -221,7 +234,4 @@ public class Artist extends User {
         merchList.add(new Merchandise(name, description, price));
         return getUsername() + " has added new merchandise successfully.";
     }
-
 }
-
-
